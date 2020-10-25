@@ -1,0 +1,10 @@
+
+=============Result for FULL============
+Full Test stats (FULL):
+loss= -0.05771
+f1_bi= 0.70247
+f1_mac= 0.80274
+f1_pu= 2.35218
+auc= 0.89957
+lrap= 0.78869
+time= 235.08919
