@@ -421,7 +421,7 @@ class Hypo_Gen():
 		years = range(self.start_year, self.end_year + 1, self.year_interval)
 
 		for year in years:
-			node_context = load_npz("{}/emb/matrices/lsi/edge_lsi_{}_emb.npz".format(self.FLAGS.data_folder, year)).toarray()
+			node_context = load_npz("{}/emb/matrices/lsi/context_lsi_{}_emb.npz".format(self.FLAGS.data_folder, year)).toarray()
 			extra_content_file = "{}/text_content/extra_context_{}".format(self.FLAGS.data_folder, year)
 			
 			for line in open(extra_content_file):
@@ -572,10 +572,8 @@ class Hypo_Gen():
 		if full_eval:
 			emb = np.concatenate(emb, 1)
 			edge_link = np.vstack(edge_link)
-			if test_set == 'full':
-				# self.analyze_paths2(20, 5, edge_link, y_pred[-1], test_set)
+			if test_set == 'full' and self.FLAGS.data_folder=="corona_data":
 				self.analyze_paths2(100, 5, edge_link[corona,:], y_pred[-1,corona], test_set)
-				# exit()		
 		mu = np.vstack(mu)
 
 
@@ -589,9 +587,6 @@ class Hypo_Gen():
 		indx3 = np.where(labels == 1)[0]	#not observed but postive pred
 		indx4 = np.where(labels == 4)[0]  #observed and positive pred
 
-		
-		print("Average confidence of Positve Prediction = {}".format(y_pred[-1][indx4].mean()))
-		print("Average confidence of Negative Prediction = {}".format(1 - y_pred[-1][indx].mean()))
 		indx = np.hstack((indx[:200],indx2[:200], indx3[:200], indx4[:200]))
 		
 		labels = labels[indx]
@@ -881,7 +876,7 @@ class Hypo_Gen():
 			print("Full Test stats ({}):\nloss= {:.5f}\nf1_bi= {:.5f}\nf1_mac= {:.5f}\nf1_pu= {:.5f}\nauc= {:.5f}\nlrap= {:.5f}\ntime= {:.5f}".format(tests.upper(), 
 				cost,test_f1_bi, test_f1_mac, f1_pu, test_auc, test_lrap, duration))
 			
-
+			
 			self.get_emb_and_plot(sess, model, minibatch, self.FLAGS.batch_size, test=True, test_set=tests)
 		
 			print(self.cid)

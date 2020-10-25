@@ -23,16 +23,16 @@ FLAGS = flags.FLAGS
 tf.compat.v1.app.flags.DEFINE_boolean('log_device_placement', False,
 							"""Whether to log device placement.""")
 #core params..
-flags.DEFINE_string('model', 'graphsage_maxpool', 'model names. See README for possible values.')  
-flags.DEFINE_float('learning_rate', 0.001, 'initial learning rate.')
+flags.DEFINE_string('model', 'graphsage_mean', 'model names. See README for possible values.')  
+flags.DEFINE_float('learning_rate', 0.0005, 'initial learning rate.')
 flags.DEFINE_string("model_size", "small", "Can be big or small; model specific def'ns")
 flags.DEFINE_string("key_type", "all_keys", "dataset category to use")
-flags.DEFINE_string("data_folder", "cancer_data", "dataset to use")
+flags.DEFINE_string("data_folder", "corona_data", "dataset to use")
 flags.DEFINE_string("test_type","full", "method for evaluation [full,eval]")
 flags.DEFINE_string("risk_type", "upu", "risk to use")
 
 # left to default values in main experiments 
-flags.DEFINE_integer('epochs', 10, 'number of epochs to train.')
+flags.DEFINE_integer('epochs', 3, 'number of epochs to train.')
 flags.DEFINE_float('dropout', 0.0,'dropout rate (1 - keep probability).')
 flags.DEFINE_float('weight_decay', 0.0, 'weight for l2 loss on embedding matrix.')
 flags.DEFINE_integer('max_degree', 128, 'maximum node degree.')
