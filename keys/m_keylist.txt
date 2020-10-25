@@ -1,0 +1,947 @@
+term_type	term_id	term_source	term_name	term_description
+C1	D013539	internal	rhesus polyomavirus		
+C1	D045402	internal	simian virus 5 SV5		
+C1	R2000042	external	varicella-zoster virus VZV		
+C1	D045405	internal	Nipah-virus		
+C1	D052162	internal	human papillomavirus type 16 HPV16		
+C1	D052161	internal	Human papillomavirus 18		
+C1	R2000095	external	herpes simplex virus type-1 HSV-1		
+C1	D045473	internal	Severe acute respiratory syndrome coronavirus		
+C1	D052688	internal	Bovine papillomavirus type 1		
+C1	D012777	internal	Rabbit papillomavirus		
+C1	C000623739	internal	Tula virus		
+C1	D006678	internal	AIDS virus		
+C1	D018063	internal	Korean hemorrhagic fever virus		
+C1	D029263	internal	epidemic hemorrhagic fever virus		
+C1	D009109	internal	Mumps virus		
+C1	R2000182	external	Parainfluenza virus type 2		
+C1	R2000183	external	human herpesvirus type 5		
+C1	D017955	internal	Poliovirus		
+C1	D008459	internal	subacute sclerosing panencephalitis virus, SSPEV		
+C1	D019316	internal	porcine reproductive and respiratory syndrome virus, PRRSV		
+C1	D007577	internal	polyomavirus JC		
+C1	R2000219	external	Herpes simplex virus type 2 (HSV-2)		
+C1	D015368	internal	human T-lymphotropic virus type I HTLV-I		
+C1	R2000227	external	Epstein Barr virus		
+C3	R2000274	external	NRAM		
+C3	R2000275	external	M2		
+C3	R2000278	external	NCAP		
+C3	R2000310	external	M1		
+C3	R2000312	external	PB1F2		
+C3	R2000333	external	TAX		
+C3	R2000393	external	LHDAG		
+C3	R2000403	external	LT		
+C3	R2000406	external	VE6		
+C3	R2000410	external	TAT		
+C3	R2000441	external	VE7		
+C3	R2000490	external	VE7		
+C3	R2000498	external	PA		
+C3	R2000507	external	VE7		
+C3	R2000557	external	VE6		
+C3	R2000666	external	KITH		
+C3	R2000761	external	BDLF2		
+C21	D014740	internal	Vidarabinum	A nucleoside antibiotic isolated from Streptomyces antibioticus. It has some antineoplastic properties and has broad spectrum activity against DNA viruses in cell cultures and significant antiviral activity against infections caused by a variety of viruses such as the herpes viruses, the vaccinia VIRUS and varicella zoster virus.	
+C21	D053139	internal	Oseltamivirum	Oseltamivir (also known as the marketed product TamifluⓇ), is an antiviral neuraminidase inhibitor used for the treatment and prophylaxis of infection with influenza viruses A and B. Oseltamivir exerts its antiviral activity by inhibiting the activity of the viral neuraminidase enzyme which is found on the surface of the viral, which is essential for viral replication and infectivity.Notably, in 2017, the World Health Organization downgraded oseltamivir from its essential medicines list from a "core" drug to a "complementary" drug, due to limited cost-effectiveness.[A179086]Oseltamivir is an acetamido cyclohexene that is a structural homolog of sialic acid and inhibits neuraminidase. Developed by Roche and approved in 1999, oseltamivir (Tamiflu) is a neuraminidase inhibitor (NAI) that elicits its antiviral action by preventing both influenza A and influenza B from budding from the host cell [L5182]. Additional approved NAIs include GlaxoSmithKline’s Relenza (zanamivir) and Seqirus’ Rapivab (peramivir) [L5182]. Although such NAIs are only effective if administered within 48hrs of symptom onset, they have demonstrated the ability to shorten the duration of influenza symptoms, with earlier treatment generally yielding better results [L5182]. Especially given the appearance of contemporary generic alternatives, oseltamivir remains a popular and demonstrably effective and successful influenza antiviral, particularly as an element in various national and community pandemic action plans.	
+C21	D019888	internal	Nelfinavir	Nelfinavir is a potent HIV-1 protease inhibitor. It is used in combination with other antiviral drugs in the treatment of HIV in both adults and children. Nelfinavir inhibits the HIV viral proteinase enzyme which prevents cleavage of the gag-pol polyprotein, resulting in noninfectious, immature viral particles.	
+C21	D019469	internal	Indinavir anhydrous	A potent and specific HIV protease inhibitor that appears to have good oral bioavailability. [PubChem]	
+C21	D019829	internal	NVP	A potent, non-nucleoside reverse transcriptase inhibitor (NNRTI) used in combination with nucleoside analogues for treatment of Human Immunodeficiency Virus Type 1 (HIV-1) infection and AIDS. [PubChem] Structurally, nevirapine belongs to the dipyridodiazepinone chemical class.	
+C21	D007065	internal	Joddeoxiuridin	An analog of deoxyuridine that inhibits viral DNA synthesis. The drug is used as an antiviral agent.	
+C21	C053539	internal	Penciclovirum	Penciclovir is a synthetic acyclic guanine derivative with antiviral activity used for the treatment of various herpes simplex virus (HSV) infections. Displaying low toxicity and good selectivity, penciclovir is a nucleoside analogue.	
+C21	D000077404	internal	Cidofovirum	Cidofovir is an injectable antiviral medication employed in the treatment of cytomegalovirus (CMV) retinitis in patients diagnosed with AIDS. It suppresses CMV replication through selective inhibition of viral DNA synthesis.[FDA label] It was manufactured by _Gilead_ and initially approved by the FDA in 1996, but has since been discontinued.[L6223]	
+C21	D000077595	internal	FCV	Famciclovir, marketed as Famvir by Novartis, is a guanine analogue used to treat herpes virus infections. It is most commonly used to treat herpes zoster (shingles). Famciclovir is a prodrug of penciclovir with higher oral bioavailability.	
+C21	D014271	internal	Trifluridinum	Trifluridine is a fluorinated pyrimidine nucleoside that is structurally related to [idoxuridine] [A35271]. It is an active antiviral agent in ophthalmic solutions used mainly in the treatment of primary keratoconjunctivitis and recurrent epithelial keratitis due to herpes simplex virus. It displays effective antiviral activity against Herpes simplex virus type 1 and 2 [A35271]. The combination product of trifluridine with tipiracil marketed as Lonsurf has been approved in Japan, the United States, and the European Union for the treatment of adult patients with metastatic colorectal cancer who have been previously treated with fluoropyrimidine-, oxaliplatin- and irinotecan-based chemotherapy, an anti-VEGF biological therapy, and if RAS wild-type, an anti-EGFR therapy. In the anticancer therapy, trifluridine acts as a thymidine-based nucleoside metabolic inhibitor that gets incorporated into DNA of cancer cells following cell uptake to aberrate DNA function during cell replication [F649].	
+C21	C413685	internal	Entecavirum	Entecavir is an oral antiviral drug used in the treatment of hepatitis B infection. It is marketed under the trade name Baraclude (BMS).Entecavir is a guanine analogue that inhibits all three steps in the viral replication process, and the manufacturer claims that it is more efficacious than previous agents used to treat hepatitis B (lamivudine and adefovir). It was approved by the U.S. Food and Drug Administration (FDA) in March 2005.	
+C21	D012299	internal	Rimantadinum	An RNA synthesis inhibitor that is used as an antiviral agent in the prophylaxis and treatment of influenza.	
+C21	D015215	internal	Zidovudinum	A dideoxynucleoside compound in which the 3&#39;-hydroxy group on the sugar moiety has been replaced by an azido group. This modification prevents the formation of phosphodiester linkages which are needed for the completion of nucleic acid chains. The compound is a potent inhibitor of HIV replication, acting as a chain-terminator of viral DNA during reverse transcription. It improves immunologic function, partially reverses the HIV-induced neurological dysfunction, and improves certain other clinical abnormalities associated with AIDS. Its principal toxic effect is dose-dependent suppression of bone marrow, resulting in anemia and leukopenia. [PubChem]	
+C21	D019438	internal	Ritonavirum	Ritonavir is an HIV protease inhibitor that interferes with the reproductive cycle of HIV. Although it was initially developed as an independent antiviral agent, it has been shown to possess advantageous properties in combination regimens with low-dose ritonavir and other protease inhibitors. It is now more commonly used as a booster of other protease inhibitors and is available in both liquid formulation and as capsules. While ritonavir is not an active antiviral agent against hepatitis C virus (HCV) infection, it is added in combination therapies indicated for treatment of HCV infections as a booster. Ritonavir is a potent CYP3A inhibitor that increases peak and trough plasma drug concentrations of other protease inhibitors such as [DB09297] and overall drug exposure. American Association for the Study of Liver Diseases (AASLD) and the Infectious Diseases Society of America (IDSA) guidelines recommend ritonavir-boosted combination therapies as a first-line therapy for HCV Genotype 1a/b and 4 treatment-naïve patients with or without cirrhosis. Ritonavir is found in a fixed-dose combination product with [DB09296], [DB09183], and [DB09297] as the FDA-approved product Viekira Pak. First approved in December 2014, Viekira Pak is indicated for the treatment of HCV genotype 1b without cirrhosis or with compensated cirrhosis, and when combined with Ribavirin for the treatment of HCV genotype 1a without cirrhosis or with compensated cirrhosis.Ritonavir is also available as a fixed-dose combination product with [DB09296] and [DB09297] as the FDA- and Health Canada-approved product Technivie. First approved in July 2015, Technivie is indicated in combination with Ribavirin for the treatment of patients with genotype 4 chronic hepatitis C virus (HCV) infection without cirrhosis or with compensated cirrhosis.In Canada, ritonavir is also available as a fixed-dose combination product with [DB09296], [DB09183], and [DB09297] as the Health Canada-approved, commercially available product Holkira Pak. First approved in January 2015, Holkira Pak is indicated for the treatment of HCV genotype 1b with or without cirrhosis, and when combined with Ribavirin for the treatment of HCV genotype 1a with or without cirrhosis. Inclusion of ritonavir can can select for HIV-1 protease inhibitor resistance-associated substitutions. Any HCV/HIV-1 co-infected patients treated with ritonavir-containing combination therapies should also be on a suppressive antiretroviral drug regimen to reduce the risk of HIV-1 protease inhibitor drug resistance.	
+C21	D053243	internal	Zanamivir	A guanido-neuraminic acid that is used to inhibit neuraminidase.	
+C21	D000077483	internal	Valacyclovir	Valaciclovir (valacyclovir), also known as _Valtrex_, is an antiviral drug that has been used to manage and treat various herpes infections for more than 2 decades.  It was initially approved by the FDA in 1995 [FDA label] and marketed by GlaxoSmithKline [L5671]. Valacyclovir is the L-valine ester of aciclovir. It is a member of the purine (guanine) nucleoside analog drug class [F3949].  This class of drugs forms an important part of hepatitis, HIV, and cytomegalovirus drug regimens [A175900].One major use of valacyclovir is the treatment of genital herpes episodes or outbreaks. Genital herpes is a frequently diagnosed sexually transmitted disease which currently affects more than 400 million individuals worldwide. It is caused by infection with the herpes simplex virus (HSV). Infection with this virus is lifelong with periodic episodes of reactivation [A175903].	
+C21	C098320	internal	Efavirenzum	Efavirenz (brand names Sustiva® and Stocrin®) is a non-nucleoside reverse transcriptase inhibitor (NNRTI) and is used as part of highly active antiretroviral therapy (HAART) for the treatment of a human immunodeficiency virus (HIV) type 1.For HIV infection that has not previously been treated, efavirenz and lamivudine in combination with zidovudine or tenofovir is the preferred NNRTI-based regimen.Efavirenz is also used in combination with other antiretroviral agents as part of an expanded postexposure prophylaxis regimen to prevent HIV transmission for those exposed to materials associated with a high risk for HIV transmission.	
+C21	D018119	internal	STV	A dideoxynucleoside analog that inhibits reverse transcriptase and has in vitro activity against HIV.	
+C21	C095108	internal	Amprenavirum	Amprenavir is a protease inhibitor used to treat HIV infection.	
+C21	D020008	internal	N-{2-[4-(3-Isopropylamino-pyridin-2-yl)-piperazine-1-carbonyl]-1H-indol-5-yl}-methanesulfonamide	A potent, non-nucleoside reverse transcriptase inhibitor with activity specific for HIV-1.	
+C21	D019259	internal	Lamivudinum	A reverse transcriptase inhibitor and zalcitabine analog in which a sulfur atom replaces the 3&#39; carbon of the pentose ring. It is used to treat Human Immunodeficiency Virus Type 1 (HIV-1) and hepatitis B (HBV).	
+C21	C106812	internal	bis-POM PMEA	Adefovir dipivoxil, previously called bis-POM PMEA, with trade names Preveon and Hepsera, is an orally-administered acyclic nucleotide analog reverse transcriptase inhibitor (ntRTI) used for treatment of hepatitis B. It is ineffective against HIV-1. Adefovir dipivoxil is the diester prodrug of adefovir.	
+C21	D000212	internal	Acyclovir	Aciclovir is a guanosine analog antiviral drug and an antimetabolite used in the treatment of herpes simplex virus infections, varicella zoster (chickenpox) and herpes zoster (shingles). Aciclovir has also been investigated for the treatment of herpes labialis applied using an iontophoretic device. Currently approved drugs for the treatment of herpes labialis (cold sores) exhibit low levels of efficacy due to the limited ability of the drugs to penetrate the skin to the site where the herpes virus is replicating. Iontophoresis uses electric current to enhance the delivery of drugs through the skin.	
+C21	D012254	internal	Tribavirin	Producing a broad-spectrum activity against several RNA and DNA viruses, Ribavirin is a synthetic guanosine nucleoside and antiviral agent that interferes with the synthesis of viral mRNA. It is primarily indicated for use in treating hepatitis C and viral hemorrhagic fevers. HCV is a single-stranded RNA virus that is categorized into nine distinct genotypes, with genotype 1 being the most common in the United States, and affecting 72% of all chronic HCV patients [L852]. It is reported that ribavirin might be only effective in early stages of viral hemorrhagic fevers including Lasser fever, Crimean-Congo hemorrhagic fever, Venezuelan hemorrhagic fever, and Hantavirus infection. Ribavirin is a prodrug that is metabolized into nucleoside analogs that blocks viral RNA synthesis and viral mRNA capping. Before the development of newer drugs, ribavirin and [DB00008]/[DB00022] dual therapy was considered the first-generation and standard antiviral treatment [A19626]. The dual therapy was administered for 48 weeks in patients with genotype 1, 4, 5, and 6, and 24 weeks in patients with genotype 2 and 3 [A19626]. Newer drugs developed as Hepatitis C viral infection treatments can be used to reduce or eliminate the use of ribavirin, which are associated with serious adverse effects. They also improve therapeutic efficacy in patients with failed [DB00008]/[DB00022] and ribavirin-based therapy. The potential use of ribavirin as a treatment for acute myeloid leukemia is currently under investigation.According to 2017 American Association for the Study of Liver Diseases (AASLD) and 2015 consensus guidelines from the Canadian Association for the Study of the Liver (CASL), ribavirin is typically used as an adjunct therapy to various first-line and second-line combination therapies recommended for each genotypes. Ribavirin is added to decrease relapse rates by accelerating viral clearance early in the treatment course [A19645]. When used to treat Hepatitis C virus (HCV) infections, it is always used as a part of combination therapies as ribavirin monotherapy is not efficacious in the treatment of chronic hepatitis C infection [A19644]. Additionally, including ribavirin in the regimen can increase the risk of anemia. In HCV genotye 1/2/3/4/5/6 patients, ribavirin can be used in combination therapy involving [DB09102] and [DB08934], Eplusa ([DB08934], [DB11613]), Harvoni ([DB08934], [DB09027]), [DB06290] and [DB08934], Viekira Pak ([DB09296], [DB09297], [DB00503], [DB09183]), Technivie ([DB00503], [DB09296], [DB09297]) and Zepatier ([DB11574], [DB11575]). Addition of weight-based ribavirin to Technivie therapy increased sustained virologic response after 12 weeks of daily therapy (SVR12) from 90% to 97% in patients with HCV genotype 1a and 90.9% to 100% in HCV genotype 4 patients [L852]. Zepatier therapy along with ribavirin improved SVR in HCV genotype 5 patients. Combination therapy of ribavirin and [DB00008] results in the SVR of 44% in patients with genotype 1 infection and 70% in patients with genotype 2-6. The inclusion of ribavirin in the combination therapies depend on individual patient's profile, for example if HCV genotype 3 patient has a Y93H genetic variant and compensated cirrhosis.	
+C21	D000068679	internal	Emtricitabinum	Emtricitabine is a nucleoside reverse transcriptase inhibitor (NRTI) for the treatment of HIV infection in adults. Emtricitabine is a cytidine analogue. The drug works by inhibiting HIV reverse transcriptase, preventing transcription of HIV RNA to DNA.	
+C21	D016049	internal	Dideoxyinosine	A dideoxynucleoside compound in which the 3&#39;-hydroxy group on the sugar moiety has been replaced by a hydrogen. This modification prevents the formation of phosphodiester linkages which are needed for the completion of nucleic acid chains. Didanosine is a potent inhibitor of HIV replication, acting as a chain-terminator of viral DNA by binding to reverse transcriptase; ddI is then metabolized to dideoxyadenosine triphosphate, its putative active metabolite.	
+C21	D000547	internal	Aminoadamantane	An antiviral that is used in the prophylactic or symptomatic treatment of influenza A. It is also used as an antiparkinsonian agent, to treat extrapyramidal reactions, and for postherpetic neuralgia. The mechanisms of its effects in movement disorders are not well understood but probably reflect an increase in synthesis and release of dopamine, with perhaps some inhibition of dopamine uptake.	
+C21	C107201	internal	Tipranavir	Tipranavir is a sulfonamide-containing dyhydropyrone and a nonpeptidic protease inhibitor that targets the HIV protease. Tipranavir and ritonavir are coadministered to treat HIV.	
+C21	D016047	internal	Zalcitabine	A dideoxynucleoside compound in which the 3'-hydroxyl group on the sugar moiety has been replaced by a hydrogen. This modification prevents the formation of 5' to 3' phosphodiester linkages, which are needed for the elongation of DNA chains, thus resulting in the termination of viral DNA growth. The compound is a potent inhibitor of HIV replication at low concentrations, acting as a chain-terminator of viral DNA by binding to reverse transcriptase. Its principal toxic side effect is axonal degeneration resulting in peripheral neuropathy.	
+C21	D015774	internal	Gancyclovir	An acyclovir analog that is a potent inhibitor of the Herpesvirus family including cytomegalovirus. Ganciclovir is used to treat complications from AIDS-associated cytomegalovirus infections.	
+C21	C106538	internal	ABC 	Abacavir (ABC) is a powerful nucleoside analog reverse transcriptase inhibitor (NRTI) used to treat HIV and AIDS. Chemically, it is a synthetic carbocyclic nucleoside and is the enantiomer with 1S, 4R absolute configuration on the cyclopentene ring. In vivo, abacavir sulfate dissociates to its free base, abacavir.	
+C21	D019258	internal	Saquinavir	An HIV protease inhibitor which acts as an analog of an HIV protease cleavage site. It is a highly specific inhibitor of HIV-1 and HIV-2 proteases.	
+C21	D000069454	internal	N-((1S,2R)-3-(((4-aminophenyl)sulfonyl)(2-methylpropyl)amino)-2-hydroxy-1-benzylpropyl)((1S,2R,5R)-4,6-dioxabicyclo(3.3.0)oct-2-yloxy)carboxamide	Darunavir is a protease inhibitor used to treat HIV. It acts on the HIV aspartyl protease which the virus needs to cleave the HIV polyprotein into its functional fragments.	
+C21	D000077712	internal	β-L-2'-deoxythymidine	Telbivudine is a synthetic thymidine nucleoside analog with specific activity against the hepatitis B virus. Telbivudine is orally administered, with good tolerance, lack of toxicity and no dose-limiting side effects.	
+C21	C426859	internal	Fosamprenavir	Fosamprenavir is a prodrug of amprenavir, an inhibitor of human immunodeficiency virus (HIV) protease.	
+C21	D061466	internal	Lopinavir	Lopinavir is an antiretroviral belonging to the _protease inhibitor_ class. It is marketed by Abbott as Kaletra, a co-formulation with a sub-therapeutic dose of ritonavir, as a component of combination therapy to treat HIV/AIDS.	
+C21	D000077562	internal	Valganciclovir	Valganciclovir hydrochloride (Valcyte, manufactured by Roche) is an antiviral medication used to treat cytomegalovirus infections. As the L-valyl ester of ganciclovir, it is actually a prodrug for ganciclovir. After oral administration, it is rapidly converted to ganciclovir by intestinal and hepatic esterases.	
+C21	C020235	internal	BVdU	Brivudine is used in the treatment of herpes zoster. Although not approved in the U.S. or Canada, it is approved in several European countries.	
+C21	D000077592	internal	Maravirocum	Maraviroc (brand-named Selzentry, or Celsentri outside the U.S.) is a chemokine receptor antagonist drug developed by the drug company Pfizer that is designed to act against HIV by interfering with the interaction between HIV and CCR5. It was originally labelled as UK-427857 during development but was assigned the Maraviroc name as it entered trials. It was approved for use by the FDA in August, 2007.	
+C21	C486464	internal	Telaprevir	Telaprevir is a direct acting antiviral medication used as part of combination therapy to treat chronic Hepatitis C, an infectious liver disease caused by infection with Hepatitis C Virus (HCV). HCV is a single-stranded RNA virus that is categorized into nine distinct genotypes, with genotype 1 being the most common in the United States, and affecting 72% of all chronic HCV patients [L852]. Treatment options for chronic Hepatitis C have advanced significantly since 2011, with the development of Direct Acting Antivirals (DAAs) such as Telaprevir. Telaprevir is an inhibitor of NS3/4A, a serine protease enzyme, encoded by HCV genotype 1 [FDA Label]. These enzymes are essential for viral replication and serve to cleave the virally encoded polyprotein into mature proteins like NS4A, NS4B, NS5A and NS5B. The barrier for develoment of resistance to NS3/4A inhibitors is lower than that of NS5B inhibitors, another class of DAAs [A19593]. Subtitutions at amino acid positions 155, 156, or 168 are known to confer resistance. The substitutions of the enzyme's catalytic triad consisting of H58, D82, and S139 are also likely to alter the affinity of the drug for NS3/4A or the activity of the enzyme itself. Despite this disadvantage Telaprevir is still effective against HCV when paired with [DB00811], [DB00008], and [DB00022].Telaprevir, [DB00811], [DB00008], and [DB00022] were used with the intent to cure, or achieve a sustained virologic response (SVR), after 12 weeks of daily administration of the combination therapy followed by 12 or 36 weeks of therapy with [DB00811], [DB00008], and [DB00022]. SVR and eradication of HCV infection is associated with significant long-term health benefits including reduced liver-related damage, improved quality of life, reduced incidence of Hepatocellular Carcinoma, and reduced all-cause mortality [A19626].Telaprevir was available as a fixed dose product (tradename Incivek) used for the treatment of chronic Hepatitis C. Approved in May 2011 by the FDA, Incivek was indicated for the treatment of HCV genotype 1 in combination with [DB00811], [DB00008], and [DB00022] [FDA Label]. Incivek has since been withdrawn from the market.	
+C21	D000069616	internal	Simeprevir	Simeprevir is a hepatitis C virus (HCV) NS3/4A protease inhibitor indicated in patient's with HCV genotype 1 for the treatment of chronic hepatitis C virus (HCV) infection. HCV is a single-stranded RNA virus that is categorized into nine distinct genotypes, with genotype 1 being the most common in the United States, and affecting 72% of all chronic HCV patients [L852]. Like all NS3/4A inhibitors, simeprevir is a serine protease inhibitor in similarity to [DB08873] and [DB05521] but is classified as a second generation protease inhibitor. This class of antiviral drugs were the first direct acting antivirals approved but are associated with lower cure rates than newer drugs. Broad use of simeprevir occurred when it was used in combination with a newer drug, [DB08934]. Inhibiting HCV NS3/4A protease in a potent and highly specific manner, simeprevir is a direct-acting antiviral agent against the hepatitis C virus. Since the viral protease NS3/4A complex is essential for cleaving the HCV encoded polyprotein into individual viral proteins facilitating replication [A19632], the drug blocks the viral replication process. It is shown to display synergistic effects with interferon-α and HCV NS5B inhibitor, and additive effects with ribavirin in HCV replicon cells [A19629]. Unlike first generation serine protease inhibitors, simprevir has a sightly different resistance profile where limited therapeutic efficacy of the drug is observed with NS3 Q80K polymorphic variants and simeprevir-specific amino acid position of 168 also results in higher treatment failure rates [A19630]. The observed prevalence of the N3 Q80K polymorphism was 30% in subjects infected with HCV genotype 1a and 0.5% in subjects infected with HCV genotype 1b [A19630]. According to 2017 American Association for the Study of Liver Diseases (AASLD) and 2015 consensus guidelines from the Canadian Association for the Study of the Liver (CASL), simeprevir can be used as first-line or second-line threapies for treatment-naïve patients as adjunct to sofosbuvir treatment for genotype 1 or PEG-Interferon/ribavirin combination therapy for genotype 1 or 4. The combination therapy of simeprevir and other antiviral agents are initiated in HCV-positive patients with the intent to cure, or achieve a sustained virologic response (SVR), after 12 weeks of daily therapy. SVR and eradication of HCV infection is associated with significant long-term health benefits including reduced liver-related damage, improved quality of life, reduced incidence of Hepatocellular Carcinoma, and reduced all-cause mortality [A19626].Simeprevir was approved by the FDA in November 2014 and is marketed under the brand name Olysio as oral tablets. Administered once daily with food, 150mg simeprevir capsule is used in combination with [DB08934] in patients with HCV genotype 1 without cirrhosis for 12 week duration. In patients with HCV genotype 1 with compensated cirrhosis, the treatment is directed for 24 week duration. Sustained virologic response 12 weeks after planned end of treatment (SVR12) was achieved in 170/176 (97%) subjects without cirrhosis treated with 12 weeks simeprevir in combination with sofosbuvir (FDA Label). The overall SVR12 was 88% (44/50) in treatment-naïve patients with cirrhosis [L852].Simeprevir is also used in treatment of HCV genotype 4 patients with or without cirrhosis and is taken with [DB00008] and [DB00811]; this triple therapy allows shortening treatment duration from 48 weeks or longer to 12 or 24 weeks [A19630] depending on prior response status and presence of HIV-1 co-infection. Prior to initiation of treatment with [DB00008] and [DB00811], screening for the presence of virus with the NS3 Q80K polymorphism is strongly recommended and if detected, alternative treatment should be considered instead to prevent therapeutic failure. The SVR12 was 83% (29/35) in treatment-naïve patients and 86% (19/22) in relapsing patients.	
+C21	C451734	internal	Etravirine	Etravirine is an antiretroviral agent more specifically classified as a Non-Nucleoside Reverse Transcriptase Inhibitor(NNRTI). Etraverine is used clinically for the treatment of human immunodeficiency virus type 1 (HIV-1) infection. On January 18, 2007, the FDA granted accelerated approved for the use of etravirine 100mg tablets in the treatment of adult HIV-1 infection documented to be resistant to therapy with other NNRTIs and antiretroviral agents. On March 26, 2012, approval was extended for use in treatment-experienced pediatric patients 6 to 18 years of age, weighing at least 16 kg. Etravarine must always be used in combination with other antiretroviral drugs. Etravirine exerts its effects via direct inhibition of the reverse transcriptase enzyme of human immunodeficiency virus type 1 (HIV-1), and consequently blocks DNA-dependent and RNA-dependent polymerase activity. Etravirine does not inhibit human DNA polymerase alpha, beta or gamma. Common side effects of use include mild to moderate rash within the first 6 weeks of therapy, nausea, diarrhea and peripheral neuropathy. Patients are advised to immediately contact their healthcare provider if a rash develops. In 2009, postmarketing case reports of Stevens-Johnson Syndrome, toxic epidermal necrolysis, erythema multiforme, and other hypersensitivity reactions lead to a revision of etravirine's "Warnings and Precautions," as well as notification of health care providers. In 2013, reports of Autoimmune disorders (such as Graves’ disease, polymyositis, and Guillain-Barrésyndrome) in the setting of immune reconstitution, as well as more in depth information about the development of rashes in patients taking etravirine, lead to a modification of etravirine's monograph.	
+C21	C414210	internal	Peramivir anhydrous	Peramivir is an antiviral agent developed by Biocryst Pharmaceuticals to treat influenza A/B. The development of peramivir has been supported by the US Department of Health and Human Services as part of the government's effort to prepare for a flu pandemic. Being an influenza virus neuraminidase inhibitor, peramivir works by preventing new viruses from emerging from infected cells. Due to the poor oral bioavailability, the oral formulation of the drug was previously abandoned by Johnson and Johnson Company. The injectable intravenous formulation of peramivir was approved by the FDA in September 2017 for the treatment of acute uncomplicated influenza to pediatric patients 2 years and older who have been symptomatic for no more than two days.	
+C21	C034935	internal	L-FMAU		
+C21	D000068696	internal	Rilpivirine	Rilpivirine is non-nucleoside reverse transcriptase inhibitor (NNRTI) which is used for the treatment of HIV-1 infections in treatment-naive patients.[A31328] It is a diarylpyrimidine derivative, a class of molecules that resemble pyrimidine nucleotides found in DNA.[A31329] The internal conformational flexibility of rilpivirine and the plasticity of it interacting binding site gives it a very high potency and an unlikely generation of resistance compared to other NNRTI's.[A31331] Rilpivirine was developed by Tilbotec, Inc. and FDA approved on May 20, 2011.[L1030] On November 21, 2017, Rilpivirine, in combination with dolutegravir, was approved as part of the first complete treatment regimen with only two drugs for the treatment of adults with HIV-1 named Juluca.[L1031]	
+C21	C562325	internal	Dolutegravir	Dolutegravir is a HIV-1 intergrase inhibitor that blocks the strand transfer step of the integration of the viral genome into the host cell (INSTI).[A7514] The effect of this drug has no homology in human host cells which gives it an excellent tolerability and minimal toxicity.[A31342] Dolutegravir was developed by ViiV Healthcare and FDA approved on August 12, 2013.[L1035] On November 21, 2017, dolutegravir, in combination with rilpivirine, was approved as part of the first complete treatment regimen with only two drugs for the treatment of adults with HIV-1 named Juluca.[L1031]	
+C21	D000069474	internal	Sofosbuvir	Sofosbuvir (tradename Sovaldi) is a direct acting antiviral medication used as part of combination therapy to treat chronic Hepatitis C, an infectious liver disease caused by infection with Hepatitis C Virus (HCV). HCV is a single-stranded RNA virus that is categorized into nine distinct genotypes, with genotype 1 being the most common in the United States, and affecting 72% of all chronic HCV patients [L852]. Treatment options for chronic Hepatitis C have advanced significantly since 2011, with the development of Direct Acting Antivirals (DAAs) such as sofosbuvir. As a prodrug nucleotide analog, Sofosbuvir is metabolized into its active form as the antiviral agent 2'-deoxy-2'-α-fluoro-β-C-methyluridine-5'-triphosphate (also known as GS-461203), which acts as a defective substrate for NS5B (non-structural protein 5B) [synthesis]. NS5B, an RNA-dependent RNA polymerase, is essential for the transcription of Hepatitis C viral RNA and for its high replicative rate and genetic diversity [A19594]. Sofosbuvir and other direct acting antivirals are therefore very potent options for the treatment of Hepatitis C, as they exhibit a high barrier to the development of resistance [A19593]. This is an important advantage relative to HCV drugs that target other viral enzymes such as the protease, for which rapid development of resistance has proven to be an important cause of therapeutic failure.  In a joint recommendation published in 2016, the American Association for the Study of Liver Diseases (AASLD) and the Infectious Diseases Society of America (IDSA) recommend Sofosbuvir as first line therapy in combination with other antivirals for all six genotypes of Hepatitis C [L852]. Depending on the genotype, sofosbuvir is often used in combination with other antivirals such as [DB09027], [DB11613], [DB09102], [DB06290], [DB11574], [DB11575], [DB00811], [DB00008], or [DB00022] with the intent to cure, or achieve a sustained virologic response (SVR), after 12 weeks of daily therapy. SVR and eradication of HCV infection is associated with significant long-term health benefits including reduced liver-related damage, improved quality of life, reduced incidence of Hepatocellular Carcinoma, and reduced all-cause mortality [A19626]. Treatment with direct acting antivirals such as sofosbuvir is associated with very minimal side effects, with the most common being headache and fatigue [FDA Label]. Lack of significant side effects and short duration of therapy is a considerable advantage over older interferon- and ribavirin-based regimens, which were limited by infusion site reactions, reduced blood count, and neuropsychiatric effects [A19635]. Since 2014, sofosbuvir has been available as a fixed dose combination product with [DB09027] (tradename Harvoni) used for the treatment of chronic Hepatitis C. Approved in October 2014 by the FDA, Harvoni is indicated for the treatment of HCV genotypes 1, 4, 5, and 6 with or without [DB00811] depending on the level of liver damage or cirrhosis [FDA Label].  When combined together, ledipasvir and sofosbuvir as the combination product Harvoni has been shown to achieve a SVR between 93 and 99% after 12 weeks of treatment [A7535]. Its use has also proven successful in the treatment of HCV in patients co-infected with HIV [A19627].Sofosbuvir is also available as a fixed dose combination product with [DB11613] as the commercially available product Epclusa. First approved in June 2016, Epclusa is the first combination HCV product indicated for the treatment of all genotypes of Hepatitis C with or without cirrhosis. Epclusa is also currently the most potent HCV antiviral medication on the market with a sustained virologic response (SVR) after 12 weeks of therapy of 93-99% depending on genotype and level of cirrhosis [L852]. Both Canadian and American guidelines list Epclusa as a first line recommendation for all genotypes of HCV [L852, A19626].Notably, sofosbuvir has come under intense scrutiny since its release to market in 2013. With the price per pill set at $1000, a 12-week treatment can cost upwards of $84,000 per patient [A19636].	
+C21	C586541	internal	methyl [(2S)-1-{(6S)-6-[4-(9,9-difluoro-7-{2-[(1R,3S,4S)-2-{(2S)-2-[(methoxycarbonyl)amino]-3-methylbutanoyl}-2-azabicyclo[2.2.1]hept-3-yl]-1H-benzimidazol-5-yl}-9H-fluoren-2-yl)-1H-imidazol-2-yl]-5-azaspiro[2.4]hept-5-yl}-3-methyl-1-oxobutan-2-yl]carbamate	Ledipasvir is a direct acting antiviral (DAA) medication used as part of combination therapy to treat chronic Hepatitis C, an infectious liver disease caused by infection with Hepatitis C Virus (HCV). HCV is a single-stranded RNA virus that is categorized into nine distinct genotypes, with genotype 1 being the most common in the United States, and affecting 72% of all chronic HCV patients [L852]. Treatment options for chronic Hepatitis C have advanced significantly since 2011, with the development of Direct Acting Antivirals (DAAs) such as ledipasvir. More specifically, ledipasvir is an inhibitor of the Hepatitis C Virus (HCV) Non-Structural Protein 5A (NS5A), which is required for viral RNA replication and assembly of HCV virions. Although its exact mechanism of action is unknown, it is postulated to prevent hyperphosphorylation of NS5A which is required for viral protein production. It is effective against genotypes 1a, 1b, 4a, and 5a and with a lesser activity against genotypes 2a and 3a of HCV. Ledipasvir and other direct acting antivirals are very potent options for the treatment of Hepatitis C, as they exhibit a high barrier to the development of resistance [A19593]. This is an important advantage relative to HCV drugs that target other viral enzymes such as the protease, for which rapid development of resistance has proven to be an important cause of therapeutic failure.  In a joint recommendation published in 2016, the American Association for the Study of Liver Diseases (AASLD) and the Infectious Diseases Society of America (IDSA) recommend ledipasvir as a first line therapy option in combination with [DB08934] for the treatment of HCV genotypes 1a, 1b, 4, 5, and 6 [L852]. Treatment with ledipasvir is used with the intent to cure, or achieve a sustained virologic response (SVR), after 12 weeks of daily therapy. SVR and eradication of HCV infection is associated with significant long-term health benefits including reduced liver-related damage, improved quality of life, reduced incidence of Hepatocellular Carcinoma, and reduced all-cause mortality [A19626]. Treatment with direct acting antivirals such as ledipasvir is associated with very minimal side effects, with the most common being headache and fatigue [FDA Label]. Lack of significant side effects and short duration of therapy is a considerable advantage over older interferon- and ribavirin-based regimens, which were limited by infusion site reactions, reduced blood count, and neuropsychiatric effects [A19635]. Since 2014, ledipasvir has been available as a fixed dose combination product with [DB08934] (tradename Harvoni) used for the treatment of chronic Hepatitis C. Approved in October 2014 by the FDA, Harvoni is indicated for the treatment of HCV genotypes 1, 4, 5, and 6 with or without [DB00811] depending on the level of liver damage or cirrhosis [FDA Label].  When combined together, ledipasvir and sofosbuvir as the combination product Harvoni has been shown to achieve a SVR between 93 and 99% after 12 weeks of treatment [FDA Label]. Its use has also proven successful in the treatment of HCV in patients co-infected with HIV [A19627].	
+C21	D000069547	internal	Cobicistat	Cobicistat, marketed under the name Tybost (formerly GS-9350), indicated for treating infection with human immunodeficiency virus (HIV). Although it does not have any anti-HIV activity, cobicistat acts as a pharmacokinetic enhancer by inhibiting cytochrome P450 3A isoforms (CYP3A) and therefore increases the systemic exposure of coadministered agents that are metabolized by CYP3A enzymes. More specifically, cobicistat is indicated to increase systemic exposure of atazanavir or darunavir (once daily dosing regimen) in combination with other antiretroviral agents in the treatment of HIV-1 infection. Increasing systemic exposure of anti-retrovirals (ARVs) without increasing dosage allows for better treatment outcomes and a decreased side effect profile.	
+C21	C549273	internal	Daclatasvir	Daclatasvir is a direct-acting antiviral agent against Hepatitis C Virus (HCV) used for the treatment of chronic HCV genotype 1 and 3 infection. It is marketed under the name DAKLINZA and is contained in daily oral tablets as the hydrochloride salt form . Hepatitis C is an infectious liver disease caused by infection with Hepatitis C Virus (HCV). HCV is a single-stranded RNA virus that is categorized into nine distinct genotypes, with genotype 1 being the most common in the United States, and affecting 72% of all chronic HCV patients [L852]. Daclatasvir was the first drug with demonstrated safety and therapeutic efficacy in treating HCV genotype 3 without the need for co-administration of interferon or [DB00811]. It exerts its antiviral action by preventing RNA replication and virion assembly via binding to NS5A, a nonstructural phosphoprotein encoded by HCV. Binding to the N-terminus of the D1 domain of NS5A prevents its interaction with host cell proteins and membranes required for virion replication complex assembly. Daclatasvir is shown to target both the cis- and trans-acting functions of NS5A and disrupts the function of new HCV replication complexes by modulating the NS5A phosphorylation status [A19640]. The most common critical NS5A amino acid substitutions that led to reduced susceptibility to daclatasvir therapy occured at position Q30 (Q30H/K/R) and M28 in genotype 1a patients and Y93H in genotype 3 patients. According to 2017 American Association for the Study of Liver Diseases (AASLD), 60mg of daclatasvir is recommended with 400mg [DB08934] for genotype 1a/b patients with or without cirrhosis as second-line therapy. The same dosing regimen can be used as first-line therapy in patients with genotype 3 without cirrhosis and second-line therapy in genotype 3 patients with compensated cirrhosis. Combination therapies that include daclatasir can be used for challenging-to-treat patients who have HIV-1 coinfection, advanced cirrhosis, or post-liver transplant recurrence of HCV [L863]. The therapy is intended to cure or achieve a sustained virologic response (SVR12), after 12 weeks of daily therapy. SVR and eradication of HCV infection is associated with significant long-term health benefits including reduced liver-related damage, improved quality of life, reduced incidence of Hepatocellular Carcinoma, and reduced all-cause mortality [A19626]. Daclatasvir was FDA-approved in July 2015 for use with [DB08934] (Sovaldi) with or without [DB00811] to treat HCV genotype 1 and 3 infections. The SVR12 in HCV genotype 1a-infected treatment-naïve subjects without and with cirrhosis undergoing daclatasvir and [DB08934] therapy were 88% and 99%, respectively [FDA Label]. The same dosing regimen in treatment-naïve patients with HCV genotype 3 infection with or without cirrhosis achieved SVR12 rates of 71% and 98%, respectively [FDA Label].	
+C21	C571889	internal	Asunaprevir	Asunaprevir, also named as BMS-650032, is a potent hepatitis C virus (HCV) NS3 protease inhibitor. It has been shown to have a very high efficacy in dual-combination regimens with daclatasvir in patients chronically infected with HCV genotype 1b.[A32528] It was developed by Bristol-Myers Squibb Canada and approved by Health Canada on April 22, 2016. The commercialization of asunaprevir was canceled one year later on October 16, 2017.[L1113]	
+C21	D008720	internal	Methisazone		
+C1	D059965	internal	merkel cell polyomavirus		
+C1	D008979	internal	moloney murine leukemia virus		
+C1	D015302	internal	simian immunodeficiency virus		
+C1	D015367	internal	human t-lymphotropic virus 2		
+C1	D002042	internal	bunyamwera virus		
+C1	D014790	internal	visna-maedi virus		
+C1	C000612320	internal	ur2 sarcoma virus		
+C1	C000623754	internal	mokola lyssavirus		
+C1	D001820	internal	bluetongue virus		
+C1	D014902	internal	west nile virus		
+C1	D002646	internal	chikungunya virus		
+C1	D012672	internal	semliki forest virus		
+C1	D022141	internal	jaagsiekte sheep retrovirus		
+C1	C000623744	internal	porcine rubulavirus		
+C1	D015608	internal	cowpox virus		
+C1	D014616	internal	vaccinia virus		
+C1	C000623767	internal	human mastadenovirus a		
+C1	D012845	internal	sindbis virus		
+C1	D012412	internal	rubella virus		
+C1	D016093	internal	mason-pfizer monkey virus		
+C1	D000071244	internal	zika virus		
+C1	D052736	internal	rous sarcoma virus		
+C3	D004423	internal	ear		
+C4	C069514	internal	map4		
+C4	C011934	internal	mica		
+C4	D012146	internal	rest		
+C4	C004551	internal	tes		
+C4	D005782	internal	gels		
+C4	D045683	internal	furin		
+C4	C538444	internal	ctnl1		
+C4	D018171	internal	agrin		
+C21	D000077560	internal	enfuvirtide	Enfuvirtide is a 36 amino acid biomimetic peptide that is structurally similar to the HIV proteins that are responsible for the fusion of the virus to cell membranes and subsequent intracellular uptake. The first agent in the novel class of antiretroviral drugs called HIV fusion inhibitors, enfuvirtide works by inhibiting HIV-1 fusion with CD4 cells.	
+C21	D017245	internal	foscarnet	An antiviral agent used in the treatment of cytomegalovirus retinitis. Foscarnet also shows activity against human herpes viruses and HIV.	
+C21	D010746	internal	phosphonoacetic acid	A simple organophosphorus compound that inhibits DNA polymerase, especially in viruses and is used as an antiviral agent. [PubChem]	
+C21	C115201	internal	pleconaril	Pleconaril is an antiviral drug from _viral capsid inhibitor_ class, manufactured by _Schering-Plough_ and intended for the prevention of acute asthma exacerbations and common cold symptoms in asthmatic patients who have had exposure to _picornavirus_. It acts by inhibiting viral replication. The use of pleconaril has not gained approval by the U.S. Food and Drug Administration (FDA) due to the fact that it has been found to induce CYP3A enzyme activity, therefore increasing the risk for serious drug interactions.	
+C21	C400401	internal	maribavir		
+C21	D007542	internal	inosine pranobex	Inosine pranobex (Isoprinosine or Methisoprinol) is a combination of inosine, acetamidobenzoic acid, and dimethylaminoisopropanol used as an antiviral drug.	
+C21	C004279	internal	tromantadine	Tromantadine is marketed as Viru-Merz in the Czech Republic [L5740]. It is an antiviral used in the treatment of herpes zoster and simplex.	
+C21	C005267	internal	moroxydine		
+C15	R1226	external	unclassified Anelloviridae		
+C3	R1439	external	Ascovirus		
+C3	R1466	external	Asfivirus		
+C3	R1522	external	Alphabaculovirus		
+C3	R1707	external	Betabaculovirus		
+C3	R1845	external	Bidensovirus		
+C3	R9552	external	Lomovskayavirus		
+C3	R16182	external	Curtovirus		
+C3	R16210	external	Mastrevirus		
+C7	R16872	external	Herpesvirales		
+C5	R16873	external	Alloherpesviridae		
+C3	R16878	external	Cyprinivirus		
+C3	R17482	external	Macavirus		
+C3	R17502	external	Percavirus		
+C3	R17850	external	Ostreavirus		
+C6	R18010	external	Alphairidovirinae		
+C3	R18022	external	Megalocytivirus		
+C6	R18181	external	Betairidovirinae		
+C7	R18320	external	Ligamenvirales		
+C15	R18520	external	unclassified Microviridae		
+C7	R19114	external	Ortervirales		
+C15	R19171	external	unclassified Badnavirus		
+C6	R19369	external	Orthoretrovirinae		
+C9	R19578	external	Murine leukemia virus		
+C15	R19655	external	unclassified Gammaretrovirus		
+C6	R22632	external	Spumaretrovirinae		
+C6	R22829	external	Firstpapillomavirinae		
+C3	R23322	external	Omegapapillomavirus		
+C3	R23607	external	Ambidensovirus		
+C9	R23752	external	Carnivore amdoparvovirus 1		
+C3	R23765	external	Aveparvovirus		
+C15	R23836	external	unclassified Bocaparvovirus		
+C3	R23943	external	Dependoparvovirus		
+C9	R24108	external	Carnivore protoparvovirus 1		
+C9	R24134	external	Rodent protoparvovirus 1		
+C3	R24400	external	Chlorovirus		
+C3	R24700	external	Bracovirus		
+C3	R24731	external	Ichnovirus		
+C3	R24748	external	Alphapolyomavirus		
+C9	R24768	external	Human polyomavirus 5		
+C3	R24900	external	Deltapolyomavirus		
+C3	R25523	external	Betaentomopoxvirus		
+C15	R25565	external	Riboviria		
+C3	R25574	external	Betatetravirus		
+C3	R25577	external	Omegatetravirus		
+C3	R26321	external	Avsunviroid		
+C3	R26328	external	Pelamoviroid		
+C3	R26341	external	Benyvirus		
+C3	R26445	external	Ourmiavirus		
+C3	R49421	external	Alphacarmotetravirus		
+C3	R49424	external	Alphachrysovirus		
+C3	R49495	external	Ampelovirus		
+C3	R49583	external	Velarivirus		
+C3	R49623	external	Deltavirus		
+C9	R50485	external	Pegivirus C		
+C9	R50795	external	Pestivirus C		
+C9	R50840	external	Pestivirus D		
+C9	R51040	external	Orthohepevirus A		
+C15	R51082	external	unclassified Hepeviridae		
+C3	R51109	external	Hypovirus		
+C3	R51281	external	Polerovirus		
+C5	R51390	external	Matonaviridae		
+C9	R51788	external	Citrus psorosis ophiovirus		
+C11	R51806	external	Monjiviricetes		
+C15	R51887	external	unclassified Bornaviridae		
+C6	R52091	external	Orthoparamyxovirinae		
+C15	R52752	external	unclassified Paramyxoviridae		
+C5	R53182	external	Pneumoviridae		
+C15	R53266	external	unclassified Pneumoviridae		
+C3	R53304	external	Cytorhabdovirus		
+C9	R53492	external	Salmonid novirhabdovirus		
+C3	R53504	external	Nucleorhabdovirus		
+C3	R53559	external	Sprivivirus		
+C9	R53629	external	Indiana vesiculovirus		
+C9	R53645	external	New Jersey vesiculovirus		
+C7	R53933	external	Bunyavirales		
+C3	R53947	external	Mammarenavirus		
+C15	R54071	external	unclassified Arenaviridae		
+C15	R54413	external	unclassified Orthohantavirus		
+C9	R54781	external	Nairobi sheep disease orthonairovirus		
+C5	R54825	external	Peribunyaviridae		
+C9	R54869	external	Bunyamwera orthobunyavirus		
+C9	R54938	external	Kaeng Khoi orthobunyavirus		
+C9	R54946	external	La Crosse orthobunyavirus		
+C5	R55190	external	Phenuiviridae		
+C9	R55266	external	Rift Valley fever phlebovirus		
+C9	R55278	external	Sandfly fever Naples phlebovirus		
+C9	R55344	external	Uukuniemi phlebovirus		
+C3	R55594	external	Orthotospovirus		
+C7	R55718	external	Articulavirales		
+C3	R55724	external	Alphainfluenzavirus		
+C3	R168222	external	Betainfluenzavirus		
+C8	R187209	external	Arnidovirineae		
+C9	R187280	external	Gammaarterivirus lacdeh		
+C8	R187314	external	Cornidovirineae		
+C15	R187317	external	unclassified Coronavirinae		
+C6	R187799	external	Orthocoronavirinae		
+C4	R187847	external	Pedacovirus		
+C4	R187868	external	Tegacovirus		
+C4	R188251	external	Embecovirus		
+C9	R188328	external	Murine coronavirus		
+C9	R188401	external	Severe acute respiratory syndrome-related coronavirus		
+C9	R188867	external	Avian coronavirus		
+C8	R189011	external	Ronidovirineae		
+C6	R189079	external	Torovirinae		
+C3	R189115	external	Alphanodavirus		
+C3	R189126	external	Betanodavirus		
+C3	R189452	external	Gammapartitivirus		
+C5	R189709	external	Picobirnaviridae		
+C7	R190047	external	Picornavirales		
+C3	R190049	external	Aparavirus		
+C3	R190062	external	Cripavirus		
+C3	R190080	external	Triatovirus		
+C3	R190143	external	Iflavirus		
+C9	R190481	external	Cardiovirus A		
+C9	R190492	external	Cardiovirus B		
+C3	R192065	external	Potamipivirus		
+C3	R192159	external	Senecavirus		
+C3	R192407	external	Cheravirus		
+C6	R192416	external	Comovirinae		
+C3	R192528	external	Torradovirus		
+C3	R192813	external	Apscaviroid		
+C3	R192838	external	Cocadviroid		
+C3	R192857	external	Hostuviroid		
+C3	R192866	external	Pospiviroid		
+C3	R192897	external	Bymovirus		
+C3	R192910	external	Ipomovirus		
+C3	R192948	external	Macluravirus		
+C3	R192968	external	Poacevirus		
+C3	R193374	external	Rymovirus		
+C3	R193379	external	Tritimovirus		
+C6	R193426	external	Sedoreovirinae		
+C3	R193598	external	Phytoreovirus		
+C6	R195120	external	Spinareovirinae		
+C3	R195156	external	Cypovirus		
+C3	R195206	external	Fijivirus		
+C9	R195325	external	Mammalian orthoreovirus		
+C3	R195383	external	Oryzavirus		
+C3	R195470	external	Sobemovirus		
+C3	R195625	external	Umbravirus		
+C6	R195648	external	Procedovirinae		
+C3	R195649	external	Alphacarmovirus		
+C3	R195658	external	Alphanecrovirus		
+C3	R195673	external	Betacarmovirus		
+C3	R195678	external	Betanecrovirus		
+C3	R195684	external	Gammacarmovirus		
+C3	R195691	external	Machlomovirus		
+C3	R195694	external	Panicovirus		
+C3	R195701	external	Pelarspovirus		
+C15	R195756	external	unclassified Tombusviridae		
+C3	R195876	external	Victorivirus		
+C7	R196071	external	Tymovirales		
+C5	R196072	external	Alphaflexiviridae		
+C3	R196073	external	Allexivirus		
+C6	R196184	external	Quinvirinae		
+C3	R196276	external	Foveavirus		
+C3	R196298	external	Robigovirus		
+C3	R196311	external	Capillovirus		
+C3	R196326	external	Citrivirus		
+C3	R196362	external	Vitivirus		
+C3	R196432	external	Maculavirus		
+C3	R196442	external	Marafivirus		
+C5	R196566	external	Virgaviridae		
+C3	R196567	external	Furovirus		
+C3	R196580	external	Hordeivirus		
+C3	R196584	external	Pecluvirus		
+C3	R196596	external	Pomovirus		
+C3	R196695	external	Tobravirus		
+C15	R198586	external	Satellites		
+C14	D014780	internal	viruses		
+C5	D000256	internal	adenoviridae		
+C3	D046808	internal	atadenovirus		
+C3	D000259	internal	aviadenovirus		
+C3	D017921	internal	mastadenovirus		
+C9	C000623757	internal	bovine mastadenovirus a		
+C9	C000623855	internal	human mastadenovirus f		
+C3	D046809	internal	siadenovirus		
+C5	D049811	internal	anelloviridae		
+C3	D046810	internal	gyrovirus		
+C9	D017727	internal	chicken anemia virus		
+C9	D022783	internal	torque teno virus		
+C5	D029223	internal	ascoviridae		
+C1	C000624050	internal	spodoptera frugiperda ascovirus 1a		
+C5	D025701	internal	asfarviridae		
+C9	D000358	internal	african swine fever virus		
+C5	D016367	internal	baculoviridae		
+C1	C000623842	internal	agrotis ipsilon multiple nucleopolyhedrovirus		
+C9	C000623844	internal	antheraea pernyi nucleopolyhedrovirus		
+C1	C000623799	internal	anticarsia gemmatalis multiple nucleopolyhedrovirus		
+C9	C000623890	internal	bombyx mori nucleopolyhedrovirus		
+C1	C000624078	internal	epiphyas postvittana nucleopolyhedrovirus		
+C9	C000623905	internal	helicoverpa armigera nucleopolyhedrovirus		
+C1	C000624083	internal	hyphantria cunea nucleopolyhedrovirus		
+C1	C000624043	internal	lymantria dispar multiple nucleopolyhedrovirus		
+C9	C000624022	internal	spodoptera exigua multiple nucleopolyhedrovirus		
+C1	C000624033	internal	spodoptera frugiperda multiple nucleopolyhedrovirus		
+C1	C000623996	internal	spodoptera littoralis nucleopolyhedrovirus		
+C1	C000623983	internal	spodoptera litura nucleopolyhedrovirus		
+C9	C000623816	internal	choristoneura fumiferana granulovirus		
+C1	C000624076	internal	cryptophlebia leucotreta granulovirus		
+C1	C000624046	internal	plodia interpunctella granulovirus		
+C1	C000624020	internal	plutella xylostella granulovirus		
+C9	C000624000	internal	trichoplusia ni granulovirus		
+C1	C000624055	internal	xestia c-nigrum granulovirus		
+C9	C000623770	internal	bombyx mori bidensovirus		
+C7	D017899	internal	caudovirales		
+C5	D017900	internal	myoviridae		
+C5	D017902	internal	podoviridae		
+C5	D017906	internal	siphoviridae		
+C1	C000623886	internal	streptomyces virus phibt1		
+C1	C000623840	internal	streptomyces virus phic31		
+C5	D018136	internal	circoviridae		
+C3	D017925	internal	circovirus		
+C9	C000623753	internal	duck circovirus		
+C1	C000623807	internal	goose circovirus		
+C9	C000623811	internal	porcine circovirus 1		
+C5	D019240	internal	corticoviridae		
+C1	D004267	internal	dna viruses		
+C5	D019241	internal	fuselloviridae		
+C5	D017791	internal	geminiviridae		
+C3	D053839	internal	begomovirus		
+C9	C000623934	internal	abutilon mosaic virus		
+C9	C000623904	internal	african cassava mosaic virus		
+C9	C000624024	internal	ageratum yellow vein virus		
+C1	C000624057	internal	bean dwarf mosaic virus		
+C9	C000623969	internal	bean golden mosaic virus		
+C9	C000624072	internal	bhendi yellow vein mosaic virus		
+C9	C000624038	internal	cotton leaf curl kokhran virus		
+C9	C000624060	internal	cotton leaf curl multan virus		
+C9	C000624017	internal	indian cassava mosaic virus		
+C9	C000623948	internal	mungbean yellow mosaic india virus		
+C9	C000623964	internal	mungbean yellow mosaic virus		
+C9	C000624045	internal	pepper golden mosaic virus		
+C9	C000624092	internal	pepper huasteco yellow vein virus		
+C9	C000624049	internal	south african cassava mosaic virus		
+C9	C000623998	internal	sri lankan cassava mosaic virus		
+C9	C000624067	internal	sweet potato leaf curl virus		
+C9	C000624068	internal	tobacco curly shoot virus		
+C9	C000624097	internal	tomato chlorotic mottle virus		
+C9	C000623906	internal	tomato golden mosaic virus		
+C9	C000623926	internal	tomato leaf curl new delhi virus		
+C9	C000624098	internal	tomato leaf curl palampur virus		
+C9	C000623932	internal	tomato leaf curl virus		
+C9	C000623961	internal	tomato yellow leaf curl china virus		
+C9	C000623933	internal	tomato yellow leaf curl sardinia virus		
+C9	C000624069	internal	tomato yellow leaf curl thailand virus		
+C9	C000623891	internal	tomato yellow leaf curl virus		
+C9	C000624053	internal	watermelon chlorotic stunt virus		
+C9	C000623921	internal	beet curly top virus		
+C9	C000623993	internal	chickpea chlorotic dwarf virus		
+C9	D026762	internal	maize streak virus		
+C9	C000623930	internal	wheat dwarf virus		
+C5	D023644	internal	guttaviridae		
+C5	D015613	internal	hepadnaviridae		
+C3	D017917	internal	avihepadnavirus		
+C3	D017918	internal	orthohepadnavirus		
+C9	D006515	internal	hepatitis b virus		
+C1	C000623843	internal	anguillid herpesvirus 1		
+C9	C000623752	internal	cyprinid herpesvirus 2		
+C1	C000623727	internal	cyprinid herpesvirus 3		
+C3	D052656	internal	ictalurivirus		
+C5	D006564	internal	herpesviridae		
+C6	D018138	internal	alphaherpesvirinae		
+C3	D025921	internal	iltovirus		
+C3	D025922	internal	mardivirus		
+C1	C000623812	internal	anatid alphaherpesvirus 1		
+C9	C000623849	internal	columbid alphaherpesvirus 1		
+C3	D018139	internal	simplexvirus		
+C3	D018140	internal	varicellovirus		
+C1	C000623848	internal	cervid alphaherpesvirus 2		
+C1	C000623792	internal	felid alphaherpesvirus 1		
+C1	C000623860	internal	phocid alphaherpesvirus 1		
+C6	D018141	internal	betaherpesvirinae		
+C3	D003587	internal	cytomegalovirus		
+C3	D018146	internal	muromegalovirus		
+C3	D019211	internal	roseolovirus		
+C6	D018142	internal	gammaherpesvirinae		
+C3	D018143	internal	lymphocryptovirus		
+C9	C000622876	internal	alcelaphine gammaherpesvirus 1		
+C1	C000623730	internal	ovine gammaherpesvirus 2		
+C9	C000623797	internal	suid gammaherpesvirus 5		
+C1	C000623851	internal	equid gammaherpesvirus 5		
+C3	D018144	internal	rhadinovirus		
+C9	C000623741	internal	ostreid herpesvirus 1		
+C5	D017911	internal	inoviridae		
+C3	D017912	internal	inovirus		
+C3	D017913	internal	plectrovirus		
+C5	D007497	internal	iridoviridae		
+C9	C000623738	internal	infectious spleen and kidney necrosis virus		
+C3	D017995	internal	ranavirus		
+C9	C000623822	internal	ambystoma tigrinum virus		
+C1	C000623846	internal	bohle iridovirus		
+C1	C000623802	internal	epizootic haematopoietic necrosis virus		
+C3	D017994	internal	iridovirus		
+C9	C000623914	internal	invertebrate iridescent virus 6		
+C5	D023643	internal	lipothrixviridae		
+C5	D023642	internal	rudiviridae		
+C5	D017914	internal	microviridae		
+C3	D017915	internal	microvirus		
+C5	D056686	internal	mimiviridae		
+C5	D052657	internal	nanoviridae		
+C3	D052658	internal	babuvirus		
+C3	D025682	internal	nanovirus		
+C9	C000624028	internal	faba bean necrotic yellows virus		
+C5	D046849	internal	nimaviridae		
+C5	D000081342	internal	nudiviridae		
+C5	D052639	internal	caulimoviridae		
+C3	D019195	internal	badnavirus		
+C1	C000624013	internal	cacao swollen shoot virus		
+C1	C000624037	internal	commelina yellow mottle virus		
+C1	C000623852	internal	gooseberry vein banding associated virus		
+C9	C000623962	internal	banana streak virus		
+C1	C000624065	internal	sugarcane bacilliform virus		
+C3	D017796	internal	caulimovirus		
+C9	C000623986	internal	dahlia mosaic virus		
+C9	C000623987	internal	figwort mosaic virus		
+C1	C000624034	internal	strawberry vein banding virus		
+C3	D052641	internal	tungrovirus		
+C5	D012190	internal	retroviridae		
+C3	D001355	internal	alpharetrovirus		
+C9	D001354	internal	avian leukosis virus		
+C1	D009189	internal	avian myeloblastosis virus		
+C3	D030121	internal	betaretrovirus		
+C9	C000623796	internal	squirrel monkey retrovirus		
+C3	D017977	internal	deltaretrovirus		
+C9	D030261	internal	primate t-lymphotropic virus 1		
+C15	D015303	internal	simian t-lymphotropic virus 1		
+C9	D030263	internal	primate t-lymphotropic virus 2		
+C1	D030281	internal	simian t-lymphotropic virus 2		
+C9	D030282	internal	primate t-lymphotropic virus 3		
+C15	D056187	internal	human t-lymphotropic virus 3		
+C1	D056185	internal	simian t-lymphotropic virus 3		
+C3	D030283	internal	epsilonretrovirus		
+C3	D017988	internal	gammaretrovirus		
+C1	D006251	internal	harvey murine sarcoma virus		
+C1	D007708	internal	kirsten murine sarcoma virus		
+C9	D008980	internal	moloney murine sarcoma virus		
+C15	D005622	internal	friend murine leukemia virus		
+C9	D001356	internal	reticuloendotheliosis virus		
+C1	D000011	internal	abelson murine leukemia virus		
+C3	D016086	internal	lentivirus		
+C3	D016092	internal	spumavirus		
+C9	D053150	internal	simian foamy virus		
+C5	D027383	internal	papillomaviridae		
+C3	D052685	internal	alphapapillomavirus		
+C3	D052686	internal	betapapillomavirus		
+C3	D052687	internal	deltapapillomavirus		
+C3	D052689	internal	gammapapillomavirus		
+C3	D052690	internal	kappapapillomavirus		
+C1	C000623876	internal	kappapapillomavirus 1		
+C3	D052691	internal	lambdapapillomavirus		
+C3	D052692	internal	mupapillomavirus		
+C9	C000623880	internal	omegapapillomavirus 1		
+C3	D052696	internal	xipapillomavirus		
+C5	D010321	internal	parvoviridae		
+C6	D019223	internal	densovirinae		
+C9	C000624025	internal	blattodean ambidensovirus 1		
+C6	D019219	internal	parvovirinae		
+C15	D000454	internal	aleutian mink disease virus		
+C9	C000623806	internal	galliform aveparvovirus 1		
+C9	D056661	internal	human bocavirus		
+C9	C000623742	internal	avian dependoparvovirus 1		
+C15	D028301	internal	feline panleukopenia virus		
+C15	D053490	internal	mink enteritis virus		
+C1	D052661	internal	h-1 parvovirus		
+C15	D008915	internal	minute virus of mice		
+C5	D017862	internal	phycodnaviridae		
+C1	C000623783	internal	paramecium bursaria chlorella virus 1		
+C5	D018071	internal	polydnaviridae		
+C9	C000623989	internal	microplitis demolitor bracovirus		
+C9	C000623963	internal	campoletis sonorensis ichnovirus		
+C5	D027382	internal	polyomaviridae		
+C9	C000623835	internal	human polyomavirus 9		
+C1	C000623856	internal	human polyomavirus 6		
+C5	D011212	internal	poxviridae		
+C6	D018147	internal	chordopoxvirinae		
+C3	D018150	internal	avipoxvirus		
+C9	D028121	internal	canarypox virus		
+C9	D005587	internal	fowlpox virus		
+C3	D018151	internal	capripoxvirus		
+C9	D008167	internal	lumpy skin disease virus		
+C3	D018152	internal	leporipoxvirus		
+C9	D009233	internal	myxoma virus		
+C3	D018169	internal	molluscipoxvirus		
+C9	D008977	internal	molluscum contagiosum virus		
+C3	D018155	internal	orthopoxvirus		
+C9	D004481	internal	ectromelia virus		
+C9	D008993	internal	monkeypox virus		
+C9	D012901	internal	variola virus		
+C3	D018157	internal	parapoxvirus		
+C9	D009923	internal	orf virus		
+C1	D010285	internal	pseudocowpox virus		
+C3	D018148	internal	suipoxvirus		
+C3	D018158	internal	yatapoxvirus		
+C9	D014999	internal	yaba monkey tumor virus		
+C6	D017996	internal	entomopoxvirinae		
+C1	C000623936	internal	amsacta moorei entomopoxvirus		
+C1	C000624074	internal	choristoneura biennis entomopoxvirus		
+C9	C000623879	internal	nudaurelia capensis beta virus		
+C1	C000626688	internal	helicoverpa armigera stunt virus		
+C1	C000623804	internal	nudaurelia capensis omega virus		
+C5	D019200	internal	astroviridae		
+C3	D052676	internal	avastrovirus		
+C9	C000623845	internal	avastrovirus 3		
+C3	D001257	internal	mamastrovirus		
+C9	C000623794	internal	mamastrovirus 3		
+C9	C000623766	internal	avocado sunblotch viroid		
+C1	C000623746	internal	peach latent mosaic viroid		
+C9	C000623721	internal	beet necrotic yellow vein virus		
+C5	D018059	internal	birnaviridae		
+C3	D019201	internal	aquabirnavirus		
+C9	D018061	internal	infectious pancreatic necrosis virus		
+C3	D019202	internal	avibirnavirus		
+C9	D007243	internal	infectious bursal disease virus		
+C3	D019203	internal	entomobirnavirus		
+C9	C000623850	internal	drosophila x virus		
+C1	C000626689	internal	cassava virus c		
+C5	D019177	internal	bromoviridae		
+C3	D019178	internal	alfamovirus		
+C9	D017794	internal	alfalfa mosaic virus		
+C3	D017795	internal	bromovirus		
+C1	C000623975	internal	broad bean mottle virus		
+C3	D017799	internal	cucumovirus		
+C9	C000623920	internal	peanut stunt virus		
+C9	C000623924	internal	tomato aspermy virus		
+C3	D019179	internal	ilarvirus		
+C1	C000623968	internal	apple mosaic virus		
+C1	C000624070	internal	asparagus virus 2		
+C1	C000624089	internal	parietaria mottle virus		
+C1	C000624021	internal	prune dwarf virus		
+C1	C000623918	internal	prunus necrotic ringspot virus		
+C3	D029161	internal	oleavirus		
+C5	D002139	internal	caliciviridae		
+C3	D029321	internal	lagovirus		
+C9	C000623791	internal	european brown hare syndrome virus		
+C3	D029322	internal	norovirus		
+C9	D009663	internal	norwalk virus		
+C3	D029341	internal	sapovirus		
+C3	D029342	internal	vesivirus		
+C9	D017928	internal	vesicular exanthema of swine virus		
+C1	C000623864	internal	providence virus		
+C9	C000623837	internal	penicillium chrysogenum virus		
+C5	D029381	internal	closteroviridae		
+C1	C000623979	internal	grapevine leafroll-associated virus 1		
+C9	C000623917	internal	grapevine leafroll-associated virus 3		
+C3	D017790	internal	closterovirus		
+C9	C000623889	internal	citrus tristeza virus		
+C1	C000624006	internal	grapevine leafroll-associated virus 2		
+C3	D029383	internal	crinivirus		
+C1	C000623959	internal	cucurbit yellow stunting disorder virus		
+C1	C000624086	internal	lettuce chlorosis virus		
+C1	C000624096	internal	potato yellow vein virus		
+C9	C000623999	internal	sweet potato chlorotic stunt virus		
+C1	C000623967	internal	tomato chlorosis virus		
+C1	C000624087	internal	little cherry virus 1		
+C5	D017910	internal	cystoviridae		
+C9	D003698	internal	hepatitis delta virus		
+C5	D018067	internal	flaviviridae		
+C3	D005416	internal	flavivirus		
+C1	C000623814	internal	bagaza virus		
+C9	D003716	internal	dengue virus		
+C9	C000623877	internal	kokobera virus		
+C1	C000623810	internal	modoc virus		
+C9	C000623828	internal	royal farm virus		
+C9	C000623726	internal	tembusu virus		
+C1	C000623725	internal	usutu virus		
+C9	D015005	internal	yellow fever virus		
+C3	D016174	internal	hepacivirus		
+C15	D029407	internal	gb virus c		
+C3	D010576	internal	pestivirus		
+C1	D006692	internal	classical swine fever virus		
+C1	D018083	internal	border disease virus		
+C15	D016752	internal	hepatitis e virus		
+C1	D052678	internal	hepevirus		
+C9	C000623801	internal	cryphonectria hypovirus 1		
+C5	D017907	internal	leviviridae		
+C3	D017908	internal	allolevivirus		
+C3	D017909	internal	levivirus		
+C5	D052679	internal	luteoviridae		
+C3	D017793	internal	luteovirus		
+C1	C000623965	internal	soybean dwarf virus		
+C1	C000624058	internal	beet mild yellowing virus		
+C9	C000624075	internal	cotton leafroll dwarf virus		
+C1	C000624027	internal	cucurbit aphid-borne yellows virus		
+C9	C000623894	internal	potato leafroll virus		
+C1	C000623954	internal	sugarcane yellow leaf virus		
+C3	D018132	internal	rubivirus		
+C1	C000623776	internal	citrus psorosis virus		
+C7	D018096	internal	mononegavirales		
+C5	D028981	internal	bornaviridae		
+C9	D001891	internal	borna disease virus		
+C5	D016563	internal	filoviridae		
+C3	D029043	internal	ebolavirus		
+C3	D029024	internal	marburgvirus		
+C5	D010252	internal	paramyxoviridae		
+C3	D018109	internal	avulavirus		
+C3	D045403	internal	henipavirus		
+C3	D018103	internal	morbillivirus		
+C9	C000623771	internal	cetacean morbillivirus		
+C1	C000623793	internal	feline morbillivirus		
+C3	D018108	internal	respirovirus		
+C3	D019213	internal	rubulavirus		
+C1	D018098	internal	paramyxovirinae		
+C3	D029121	internal	metapneumovirus		
+C1	D018111	internal	pneumovirus		
+C5	D012209	internal	rhabdoviridae		
+C9	C000623941	internal	lettuce necrotic yellows cytorhabdovirus		
+C3	D019235	internal	ephemerovirus		
+C3	D018114	internal	lyssavirus		
+C1	C000623833	internal	duvenhage lyssavirus		
+C9	C000623874	internal	european bat 1 lyssavirus		
+C1	C000623857	internal	irkut lyssavirus		
+C1	C000623785	internal	lagos bat lyssavirus		
+C3	D029141	internal	novirhabdovirus		
+C15	D029142	internal	infectious hematopoietic necrosis virus		
+C9	C000623838	internal	snakehead novirhabdovirus		
+C1	C000624077	internal	eggplant mottled dwarf nucleorhabdovirus		
+C1	C000624088	internal	maize fine streak nucleorhabdovirus		
+C9	C000624018	internal	maize mosaic nucleorhabdovirus		
+C1	C000623981	internal	potato yellow dwarf nucleorhabdovirus		
+C1	C000623950	internal	sonchus yellow net nucleorhabdovirus		
+C1	C000623756	internal	carp sprivivirus		
+C3	D018116	internal	vesiculovirus		
+C9	C000623800	internal	cocal vesiculovirus		
+C15	D014721	internal	vesicular stomatitis indiana virus		
+C15	D054260	internal	vesicular stomatitis new jersey virus		
+C9	C000623819	internal	piry vesiculovirus		
+C5	D001116	internal	arenaviridae		
+C1	C000623786	internal	mobala mammarenavirus		
+C9	C000623841	internal	tacaribe mammarenavirus		
+C9	C000623868	internal	wenzhou mammarenavirus		
+C3	D018050	internal	arenavirus		
+C9	C000623827	internal	rio mamore hantavirus		
+C15	D029281	internal	nairobi sheep disease virus		
+C3	D016851	internal	orthobunyavirus		
+C9	C000623847	internal	bwamba orthobunyavirus		
+C9	C000623780	internal	guaroa orthobunyavirus		
+C1	C000626781	internal	kaeng khoi virus		
+C15	D018062	internal	la crosse virus		
+C9	C000623858	internal	manzanilla orthobunyavirus		
+C9	C000623803	internal	mpoko orthobunyavirus		
+C9	C000628144	internal	oropouche orthobunyavirus		
+C9	C000623768	internal	shuni orthobunyavirus		
+C3	D016856	internal	phlebovirus		
+C9	C000623751	internal	punta toro phlebovirus		
+C1	D012296	internal	rift valley fever virus		
+C1	D029301	internal	sandfly fever naples virus		
+C9	C000623795	internal	sfts phlebovirus		
+C1	D018066	internal	uukuniemi virus		
+C3	D029364	internal	tenuivirus		
+C9	C000624081	internal	groundnut ringspot tospovirus		
+C9	C000623971	internal	iris yellow spot tospovirus		
+C1	C000624009	internal	watermelon silver mottle tospovirus		
+C5	D009975	internal	orthomyxoviridae		
+C9	D009980	internal	influenza a virus		
+C9	D009981	internal	influenza b virus		
+C3	D046829	internal	isavirus		
+C3	D018117	internal	thogotovirus		
+C7	D028381	internal	nidovirales		
+C5	D028382	internal	arteriviridae		
+C1	D007240	internal	equartevirus		
+C15	D007772	internal	lactate dehydrogenase-elevating virus		
+C5	D003332	internal	coronaviridae		
+C1	C000627033	internal	swine acute diarrhea syndrome coronavirus		
+C3	D000073638	internal	alphacoronavirus		
+C9	D053485	internal	porcine epidemic diarrhea virus		
+C9	D000073639	internal	alphacoronavirus 1		
+C15	D005760	internal	transmissible gastroenteritis virus		
+C15	D045722	internal	porcine respiratory coronavirus		
+C3	D000073640	internal	betacoronavirus		
+C9	D000073641	internal	betacoronavirus 1		
+C15	D006517	internal	murine hepatitis virus		
+C1	C000656484	internal	severe acute respiratory syndrome coronavirus 2		
+C3	D000073642	internal	gammacoronavirus		
+C15	D001351	internal	infectious bronchitis virus		
+C5	D046828	internal	roniviridae		
+C3	D017003	internal	torovirus		
+C5	D030381	internal	nodaviridae		
+C1	C000623779	internal	black beetle virus		
+C9	C000623734	internal	flock house virus		
+C9	C000623761	internal	nodamura virus		
+C1	C000623859	internal	pariacoto virus		
+C9	C000623866	internal	striped jack nervous necrosis virus		
+C1	C000623881	internal	penicillium stoloniferum virus s		
+C3	D018708	internal	picobirnavirus		
+C5	D056629	internal	dicistroviridae		
+C9	C000623775	internal	acute bee paralysis virus		
+C1	C000623777	internal	israeli acute paralysis virus		
+C1	C000623824	internal	kashmir bee virus		
+C1	C000623729	internal	taura syndrome virus		
+C9	C000623749	internal	cricket paralysis virus		
+C9	C000623764	internal	drosophila c virus		
+C1	C000623788	internal	rhopalosiphum padi virus		
+C1	C000623750	internal	black queen cell virus		
+C1	C000623854	internal	himetobi p virus		
+C1	C000623882	internal	plautia stali intestine virus		
+C1	C000623760	internal	triatoma virus		
+C9	C000623733	internal	deformed wing virus		
+C9	C000623808	internal	infectious flacherie virus		
+C9	C000623743	internal	sacbrood virus		
+C5	D010849	internal	picornaviridae		
+C3	D005537	internal	aphthovirus		
+C9	D029544	internal	foot-and-mouth disease virus		
+C3	D017943	internal	cardiovirus		
+C15	D004686	internal	encephalomyocarditis virus		
+C15	D017945	internal	theilovirus		
+C3	D004770	internal	enterovirus		
+C9	C000623784	internal	enterovirus d		
+C9	C000623787	internal	rhinovirus a		
+C9	C000623735	internal	rhinovirus b		
+C9	C000623728	internal	rhinovirus c		
+C3	D052698	internal	erbovirus		
+C3	D006507	internal	hepatovirus		
+C3	D052699	internal	kobuvirus		
+C9	C000623790	internal	aichivirus b		
+C3	D030061	internal	parechovirus		
+C9	C000623825	internal	potamipivirus a		
+C9	C000623748	internal	senecavirus a		
+C3	D052700	internal	teschovirus		
+C5	D019180	internal	secoviridae		
+C1	C000623946	internal	apple latent spherical virus		
+C3	D017798	internal	comovirus		
+C1	C000624035	internal	andean potato mottle virus		
+C9	C000623919	internal	bean pod mottle virus		
+C9	C000624026	internal	cowpea severe mosaic virus		
+C1	C000623995	internal	radish mosaic virus		
+C1	C000623939	internal	red clover mottle virus		
+C9	C000623997	internal	squash mosaic virus		
+C3	D019181	internal	fabavirus		
+C9	C000624059	internal	broad bean wilt virus 1		
+C9	C000623957	internal	broad bean wilt virus 2		
+C3	D017860	internal	nepovirus		
+C9	C000623935	internal	arabis mosaic virus		
+C1	C000623976	internal	cherry leaf roll virus		
+C9	C000623901	internal	grapevine fanleaf virus		
+C9	C000623951	internal	tomato black ring virus		
+C9	C000623943	internal	tomato ringspot virus		
+C3	D019192	internal	sequivirus		
+C9	C000624008	internal	tomato torrado virus		
+C3	D019193	internal	waikavirus		
+C9	C000623870	internal	apple scar skin viroid		
+C9	C000623872	internal	citrus dwarfing viroid		
+C1	C000623853	internal	grapevine yellow speckle viroid 1		
+C1	C000623832	internal	coconut cadang-cadang viroid		
+C9	C000623745	internal	hop stunt viroid		
+C9	C000623867	internal	tomato apical stunt viroid		
+C5	D019176	internal	potyviridae		
+C9	C000623956	internal	barley mild mosaic virus		
+C9	C000623944	internal	barley yellow mosaic virus		
+C9	C000624014	internal	cassava brown streak virus		
+C1	C000624004	internal	cucumber vein yellowing virus		
+C1	C000624002	internal	cardamom mosaic virus		
+C1	C000623966	internal	sugarcane streak mosaic virus		
+C9	C000624001	internal	triticum mosaic virus		
+C3	D017800	internal	potyvirus		
+C1	C000624056	internal	banana bract mosaic virus		
+C9	C000623974	internal	bean common mosaic necrosis virus		
+C9	C000623925	internal	bean common mosaic virus		
+C9	C000623908	internal	bean yellow mosaic virus		
+C1	C000624071	internal	beet mosaic virus		
+C1	C000623945	internal	clover yellow vein virus		
+C9	C000623970	internal	cowpea aphid-borne mosaic virus		
+C9	C000624005	internal	dasheen mosaic virus		
+C1	C000624084	internal	iris severe mosaic virus		
+C9	C000624085	internal	johnsongrass mosaic virus		
+C9	C000623931	internal	lettuce mosaic virus		
+C1	C000623960	internal	maize dwarf mosaic virus		
+C9	C000624044	internal	onion yellow dwarf virus		
+C1	C000624030	internal	papaya leaf distortion mosaic virus		
+C9	C000623897	internal	papaya ringspot virus		
+C9	C000624090	internal	passion fruit woodiness virus		
+C9	C000623953	internal	pea seed-borne mosaic virus		
+C9	C000623972	internal	pepper mottle virus		
+C1	C000624062	internal	pepper veinal mottle virus		
+C1	C000624093	internal	pepper yellow mosaic virus		
+C9	D017801	internal	plum pox virus		
+C1	C000624094	internal	pokeweed mosaic virus		
+C9	C000623913	internal	potato virus a		
+C9	C000623895	internal	soybean mosaic virus		
+C9	C000623911	internal	sugarcane mosaic virus		
+C1	C000624066	internal	sunflower chlorotic mottle virus		
+C9	C000623955	internal	sweet potato feathery mottle virus		
+C1	C000623893	internal	tobacco etch virus		
+C1	C000624007	internal	tobacco vein banding mosaic virus		
+C1	C000623942	internal	tobacco vein mottling virus		
+C9	C000623892	internal	turnip mosaic virus		
+C9	C000623907	internal	watermelon mosaic virus		
+C1	C000624023	internal	yam mosaic virus		
+C9	C000623899	internal	zucchini yellow mosaic virus		
+C9	C000624047	internal	ryegrass mosaic virus		
+C1	C000623902	internal	wheat streak mosaic virus		
+C5	D012087	internal	reoviridae		
+C3	D018163	internal	orbivirus		
+C9	D000356	internal	african horse sickness virus		
+C9	C000623769	internal	equine encephalosis virus		
+C1	C000623805	internal	orungo virus		
+C9	D030081	internal	palyam virus		
+C1	C000623869	internal	yunnan orbivirus		
+C9	C000623898	internal	rice dwarf virus		
+C9	C000623732	internal	wound tumor virus		
+C3	D012401	internal	rotavirus		
+C9	C000623731	internal	rotavirus b		
+C9	C000623722	internal	rotavirus c		
+C9	C000623883	internal	rotavirus d		
+C9	C000623737	internal	rotavirus g		
+C3	D018162	internal	coltivirus		
+C9	D003122	internal	colorado tick fever virus		
+C9	C000623927	internal	cypovirus 1		
+C9	C000623772	internal	fiji disease virus		
+C1	C000623952	internal	maize rough dwarf virus		
+C1	C000623818	internal	mal de rio cuarto virus		
+C1	C000623896	internal	rice black streaked dwarf virus		
+C9	C000623916	internal	southern rice black-streaked dwarf virus		
+C3	D018165	internal	orthoreovirus		
+C15	D012089	internal	mammalian orthoreovirus 3		
+C1	C000623778	internal	piscine orthoreovirus		
+C9	C000623973	internal	rice ragged stunt virus		
+C9	C000623817	internal	cocksfoot mottle virus		
+C1	C000623736	internal	rice yellow mottle virus		
+C1	C000623759	internal	sesbania mosaic virus		
+C9	C000623724	internal	southern bean mosaic virus		
+C1	C000623885	internal	sowbane mosaic virus		
+C1	C000623887	internal	turnip rosette virus		
+C1	C000623789	internal	velvet tobacco mottle virus		
+C5	D014035	internal	togaviridae		
+C3	D000524	internal	alphavirus		
+C1	C000623813	internal	aura virus		
+C1	C000623873	internal	eilat virus		
+C9	C000623763	internal	fort morgan virus		
+C1	C000623781	internal	highlands j virus		
+C1	C000623878	internal	middelburg virus		
+C9	D012398	internal	ross river virus		
+C9	C000623820	internal	salmon pancreas disease virus		
+C5	D019183	internal	tombusviridae		
+C9	C000624040	internal	groundnut rosette virus		
+C1	C000623984	internal	tobacco mottle virus		
+C1	C000624019	internal	pelargonium flower break virus		
+C1	C000624051	internal	tobacco necrosis virus a		
+C1	C000623947	internal	hibiscus chlorotic ringspot virus		
+C1	C000623985	internal	beet black scorch virus		
+C1	C000624052	internal	tobacco necrosis virus d		
+C1	C000623929	internal	melon necrotic spot virus		
+C9	C000626778	internal	maize chlorotic mottle virus		
+C9	C000623949	internal	panicum mosaic virus		
+C1	C000624061	internal	pelargonium line pattern virus		
+C3	D017864	internal	tombusvirus		
+C1	C000624003	internal	carnation italian ringspot virus		
+C1	C000623915	internal	cucumber necrosis virus		
+C1	C000624091	internal	pelargonium leaf curl virus		
+C1	D019184	internal	carmovirus		
+C5	D019196	internal	totiviridae		
+C3	D019198	internal	giardiavirus		
+C3	D019199	internal	leishmaniavirus		
+C9	C000623782	internal	leishmania rna virus 1		
+C3	D019197	internal	totivirus		
+C1	C000624041	internal	helminthosporium victoriae virus 190s		
+C1	C000624079	internal	garlic virus x		
+C1	C000624048	internal	shallot virus x		
+C3	D017863	internal	potexvirus		
+C1	C000626779	internal	alternanthera mosaic virus		
+C1	C000623900	internal	bamboo mosaic virus		
+C1	C000623978	internal	clover yellow mosaic virus		
+C9	C000623928	internal	cymbidium mosaic virus		
+C1	C000624029	internal	foxtail mosaic virus		
+C1	C000623875	internal	hosta virus x		
+C9	C000623990	internal	narcissus mosaic virus		
+C1	C000623909	internal	papaya mosaic virus		
+C1	C000623910	internal	pepino mosaic virus		
+C9	C000624031	internal	plantago asiatica mosaic virus		
+C1	C000624095	internal	potato aucuba mosaic virus		
+C9	C000624010	internal	white clover mosaic virus		
+C3	D017788	internal	carlavirus		
+C1	C000624015	internal	chrysanthemum virus b		
+C1	C000624042	internal	hop latent virus		
+C9	C000623988	internal	lily symptomless virus		
+C9	C000624064	internal	poplar mosaic virus		
+C9	C000623938	internal	potato virus m		
+C9	C000623923	internal	potato virus s		
+C9	C000624011	internal	apple stem pitting virus		
+C9	C000623940	internal	grapevine rupestris stem pitting-associated virus		
+C1	C000624036	internal	cherry green ring mottle virus		
+C9	C000623958	internal	apple stem grooving virus		
+C1	C000624073	internal	cherry virus a		
+C9	C000623977	internal	citrus leaf blotch virus		
+C9	C000623937	internal	grapevine virus a		
+C1	C000624016	internal	grapevine virus b		
+C5	D046830	internal	tymoviridae		
+C9	C000624080	internal	grapevine fleck virus		
+C9	C000623980	internal	maize rayado fino virus		
+C3	D017806	internal	tymovirus		
+C1	C000624012	internal	belladonna mottle virus		
+C1	C000624039	internal	eggplant mosaic virus		
+C1	C000624063	internal	physalis mottle virus		
+C1	C000624054	internal	wild cucumber mosaic virus		
+C1	C000623823	internal	chinese wheat mosaic virus		
+C1	C000623884	internal	soil-borne cereal mosaic virus		
+C9	C000623755	internal	soil-borne wheat mosaic virus		
+C1	C000623723	internal	barley stripe mosaic virus		
+C1	C000623862	internal	poa semilatent virus		
+C9	C000623774	internal	peanut clump virus		
+C1	C000623831	internal	beet soil-borne virus		
+C9	C000623747	internal	potato mop-top virus		
+C3	D017898	internal	tobamovirus		
+C9	C000623912	internal	cucumber green mottle mosaic virus		
+C1	C000624082	internal	hibiscus latent singapore virus		
+C9	C000623922	internal	pepper mild mottle virus		
+C9	C000624032	internal	ribgrass mosaic virus		
+C9	D014027	internal	tobacco mosaic virus		
+C9	C000623903	internal	tomato mosaic virus		
+C1	C000624099	internal	turnip vein-clearing virus		
+C1	C000623773	internal	pea early-browning virus		
+C9	C000623719	internal	tobacco rattle virus		
+C1	D012526	internal	satellite viruses		
+C5	D017916	internal	tectiviridae		
