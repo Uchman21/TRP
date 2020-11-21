@@ -719,7 +719,7 @@ class Hypo_Gen():
 			else:
 				layer_infos = [SAGEInfo("node", sampler, self.FLAGS.samples_1, self.FLAGS.dim_1)]
 
-			model = SupervisedGraphsage(labels, self.seq.shape[0], placeholders, 
+			model = SupervisedGraphsage(labels[masks[0]], self.seq.shape[0], placeholders, 
 										 features,
 										 seq_info,
 										 risk_type=self.FLAGS.risk_type,
@@ -734,7 +734,7 @@ class Hypo_Gen():
 			layer_infos = [SAGEInfo("node", sampler, self.FLAGS.samples_1, 2*self.FLAGS.dim_1),
 								SAGEInfo("node", sampler, self.FLAGS.samples_2, 2*self.FLAGS.dim_2)]
 
-			model = SupervisedGraphsage(labels, self.seq.shape[0], placeholders, 
+			model = SupervisedGraphsage(labels[masks[0]], self.seq.shape[0], placeholders, 
 										 features,
 										 seq_info,
 										 risk_type=self.FLAGS.risk_type,
@@ -751,7 +751,7 @@ class Hypo_Gen():
 			layer_infos = [SAGEInfo("node", sampler, self.FLAGS.samples_1, self.FLAGS.dim_1),
 								SAGEInfo("node", sampler, self.FLAGS.samples_2, self.FLAGS.dim_2)]
 
-			model = SupervisedGraphsage(labels, self.seq.shape[0], placeholders, 
+			model = SupervisedGraphsage(labels[masks[0]], self.seq.shape[0], placeholders, 
 										 features,
 										 context_features,
 										 seq_info,
@@ -768,7 +768,7 @@ class Hypo_Gen():
 			layer_infos = [SAGEInfo("node", sampler, self.FLAGS.samples_1, self.FLAGS.dim_1),
 								SAGEInfo("node", sampler, self.FLAGS.samples_2, self.FLAGS.dim_2)]
 
-			model = SupervisedGraphsage(labels, self.seq.shape[0], placeholders, 
+			model = SupervisedGraphsage(labels[masks[0]], self.seq.shape[0], placeholders, 
 										features,
 										seq_info,
 										risk_type=self.FLAGS.risk_type,
@@ -784,7 +784,7 @@ class Hypo_Gen():
 			layer_infos = [SAGEInfo("node", sampler, self.FLAGS.samples_1, self.FLAGS.dim_1),
 								SAGEInfo("node", sampler, self.FLAGS.samples_2, self.FLAGS.dim_2)]
 
-			model = SupervisedGraphsage(labels, self.seq.shape[0], placeholders, 
+			model = SupervisedGraphsage(labels[masks[0]], self.seq.shape[0], placeholders, 
 										features,
 										seq_info,
 										risk_type=self.FLAGS.risk_type,

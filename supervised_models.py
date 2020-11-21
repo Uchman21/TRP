@@ -319,7 +319,7 @@ class SupervisedGraphsage(models.SampleAndAggregate):
                 tf.nn.softplus(-network_out * y, name=name)
         elif surrogate_loss == 'zero-one':
             return lambda network_out, y, name:\
-                (tf.cast(tf.greater(-network_out * y, 0.), tf.float32))
+                (tf.cast(tf.greater(-network_out * y, 0.5), tf.float32))
         else:
             raise NotImplementedError('Unknown loss function: {}'
                                       .format(surrogate_loss))
@@ -337,9 +337,9 @@ class SupervisedGraphsage(models.SampleAndAggregate):
         loss_func = self._parse_loss_function(surrogate_loss)
         positive_losses = loss_func(node_preds, self._positive, 'positive_losses')
         negative_losses = loss_func(node_preds, -1, 'negative_losses')
-        losses = tf.reduce_mean(prop_score * positive / num_positive *
-                               positive_losses + (1 - prop_score) * negative /
-                               num_negative * negative_losses, name='pu_risk')
+        losses = tf.reduce_mean((prop_score * (positive / num_positive) *
+                               positive_losses) + ((1 - prop_score) * (negative /
+                               num_negative) * negative_losses), name='pn_risk')
 
         return losses
 
