@@ -278,12 +278,12 @@ class Hypo_Gen():
 						added = True
 					elif frwd in pair_tracker:
 						cur_pair_id = pair_tracker[frwd]
-						data[cur_pair_id][-2] = window_id
+						data[cur_pair_id][-1] = window_id
 
 						added = False
 					else:
 						cur_pair_id = pair_tracker[bck]
-						data[cur_pair_id][-2] = window_id
+						data[cur_pair_id][-1] = window_id
 
 
 						added = False
