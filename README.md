@@ -28,7 +28,7 @@ Recent versions of TensorFlow, numpy, scipy, sklearn are required. You can insta
 
 ### Running the code
 
-Use `python RAW.py` to run using default settings. The parameters can be changed by passing during the command call (e.g., `python supervised_train.py`). Use `python supervised_train.py --help` to display the parameters.
+Use `python supervised_train.py` to run using default settings. The parameters can be changed by passing during the command call (e.g., `python supervised_train.py`). Use `python supervised_train.py --help` to display the parameters.
 
 #### Input format
 At minimums, the code requires that a `--data_folder` option is specified which specifies the following data files:
