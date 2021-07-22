@@ -32,7 +32,7 @@ class MinibatchIterator(object):
         self.max_id = max_id
 
 
-        train_mask, self.test_mask, self.unk_test_mask, _, self.corona = masks
+        train_mask, self.test_mask, self.unk_test_mask, self.corona = masks
         self.edges = edges
         self.labels = labels
         self.lastlabel = np.sort(np.unique(labels))[-2]
@@ -42,7 +42,7 @@ class MinibatchIterator(object):
         self.full_train_links = self.edges[train_mask, :]
         self.val_links =  self.full_train_links[:20]
         self.val_set_size = len(self.val_links)
-
+        
     def end(self):
         return self.batch_num * self.batch_size >= len(self.train_links)
 
@@ -92,6 +92,13 @@ class MinibatchIterator(object):
             return corona
         else:
             return None
+
+    def set_eval_data(self, test_set='full', corona = False):
+        corona = [i for i,e in enumerate(list(self.test_mask[test_set])) if e in self.corona]
+        self.edge_list = self.edges[list(self.corona)] 
+        self.edge_lables = self.labels[list(self.corona)]
+        
+        return None
 
     def incremental_val_feed_dict(self, size, iter_num, test=False):
         if not test and iter_num == 0:

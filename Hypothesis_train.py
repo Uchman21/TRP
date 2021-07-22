@@ -300,7 +300,7 @@ class Hypo_Gen():
 								test_mask['any'].add(cur_pair_id)
 							if (s in node_difference) or  (t in node_difference):
 								test_mask['new'].add(cur_pair_id)
-							test_mask['full'].add(cur_pair_id)
+							test_mask['full'].add(cur_pair_id) #C000657245
 							if 'C000657245' in id_map and (s == id_map['C000657245'] or t == id_map['C000657245']):
 								corona.add(cur_pair_id)
 						else:
@@ -474,8 +474,10 @@ class Hypo_Gen():
 		return node_outs_val[1], f1, lrap, f1_pu, (time.time() - t_test)
 
 	def analyze_paths2(self, K, max_len, edge, y_pred=None, test_set=None):
-		sorted_idx = np.where(y_pred >= cut_off)[0]
+		sorted_idx = np.where(y_pred >= 0)[0]
 		pred = y_pred[sorted_idx]
+		# print(y_pred)
+		# exit()
 		sorted_idx = sorted_idx[np.argsort(pred)[::-1]]
 		sorted_pred = np.sort(pred)[::-1]
 		pos = edge[sorted_idx]
@@ -497,7 +499,7 @@ class Hypo_Gen():
 		key_dics = {}
 
 		for i in range(len(key_types)):
-			for line in open("key_data/{}".format(key_types[i])):
+			for line in open("keys/{}".format(key_types[i])):
 				row = line.rstrip('\n') 
 				try:
 					items = row.split("\t") 
@@ -512,13 +514,13 @@ class Hypo_Gen():
 			try:
 				sh_path = nx.bidirectional_shortest_path(G, id2id[pos[i,0]], id2id[pos[i,1]])
 				if count[len(sh_path) - 1] <= K:
-					output_files[len(sh_path) - 1].write("Shortest path from {}({}) <--> {}({}) ---{} -- {}\n".format(key_dics[id2id[pos[i,0]]], id2id[pos[i,0]], key_dics[id2id[pos[i,1]]], id2id[pos[i,1]],i, sorted_pred[i]))
+					output_files[len(sh_path) - 1].write("Shortest path from {}({}) <--> {}({})\n".format(key_dics[id2id[pos[i,0]]], id2id[pos[i,0]], key_dics[id2id[pos[i,1]]], id2id[pos[i,1]]))#,i, sorted_pred[i]))
 					for item in sh_path:
 						output_files[len(sh_path) - 1].write("\t - {}\n".format(key_dics[item]))
 					count[len(sh_path) - 1] += 1
 			except Exception as e:
 				# print(e)
-				output_files[-1].write("No Paths found for {} <--> {}-- {} -- {}\n\n".format(key_dics[id2id[pos[i,0]]], key_dics[id2id[pos[i,1]]], i, sorted_pred[i]))
+				output_files[-1].write("No Paths found for {} <--> {}--\n\n".format(key_dics[id2id[pos[i,0]]], key_dics[id2id[pos[i,1]]]))#, i, sorted_pred[i]))
 
 		for output_file in output_files:
 			output_file.close()
@@ -550,7 +552,9 @@ class Hypo_Gen():
 		edge_link = []
 		iter_num = 0
 		pdf = PdfPages('output/{}_{}_{}.pdf'.format(self.FLAGS.data_folder,self.cid, test_set))
-		corona = minibatch_iter.set_test_data(test_set, True)
+		# corona = minibatch_iter.set_test_data(test_set, True)
+		minibatch_iter.set_test_data(test_set, True)
+
 		while not finished:
 			feed_dict_val, batch_labels, finished, link,_  = minibatch_iter.incremental_val_feed_dict(size, iter_num, test=test)
 			node_outs_val = sess.run([model.h_t, model.all_preds], 
@@ -572,8 +576,76 @@ class Hypo_Gen():
 		if full_eval:
 			emb = np.concatenate(emb, 1)
 			edge_link = np.vstack(edge_link)
-			if test_set == 'full' and self.FLAGS.data_folder=="corona_data":
+			if test_set == 'full':# and self.FLAGS.data_folder=="corona_data":
 				self.analyze_paths2(100, 5, edge_link[corona,:], y_pred[-1,corona], test_set)
+		mu = np.vstack(mu)
+
+
+		y_tmp = copy.deepcopy(y_pred[-1])
+		y_tmp = (y_tmp >= cut_off).astype(np.float32)
+		labels = (labels <= self.num_year_window).astype(np.float32)
+		labels = y_tmp + (3 * labels)
+
+		indx = np.where(labels == 0)[0]		#not observed and negative pred
+		indx2 = np.where(labels == 3)[0]	#observed but negative pred
+		indx3 = np.where(labels == 1)[0]	#not observed but postive pred
+		indx4 = np.where(labels == 4)[0]  #observed and positive pred
+
+		indx = np.hstack((indx[:200],indx2[:200], indx3[:200], indx4[:200]))
+		
+		labels = labels[indx]
+		mu = mu[indx]
+		color = self.pltcolor(labels)
+
+		fig = plt.figure(constrained_layout=True)
+		spec2 = gridspec.GridSpec(ncols=1, nrows=1, figure=fig)
+		X = TSNE(n_components=2).fit_transform(mu)
+		ax = fig.add_subplot(spec2[0, 0])
+		ax.scatter(X[:, 0], X[:, 1], c=color, cmap=plt.cm.Spectral)
+		plt.title("Pair embedding scatter plot")
+
+		pdf.savefig(fig)
+		pdf.close()
+
+
+
+
+	def get_eval_emb_and_plot(self, sess, model, minibatch_iter, size, test=False, test_set='full', full_eval=False):
+		finished = False
+		full_eval = True
+		labels = []
+		y_pred = []
+		mu = []
+		emb = []
+		edge_link = []
+		iter_num = 0
+		pdf = PdfPages('output/{}_{}_{}.pdf'.format(self.FLAGS.data_folder,self.cid, test_set))
+		# corona = minibatch_iter.set_test_data(test_set, True)
+		minibatch_iter.set_eval_data(test_set, True)
+
+		while not finished:
+			feed_dict_val, batch_labels, finished, link,_  = minibatch_iter.incremental_val_feed_dict(size, iter_num, test=test)
+			node_outs_val = sess.run([model.h_t, model.all_preds], 
+							 feed_dict=feed_dict_val)
+			labels.append(batch_labels)
+			y_pred.append(node_outs_val[1])
+
+			if full_eval:
+				emb.append(node_outs_val[0])
+				mu.append(emb[-1][-1, :, :])
+				edge_link.append(link)
+			else:
+				mu.append(node_outs_val[0][-1, :, :])
+			
+			iter_num += 1
+		
+		y_pred = np.squeeze(np.concatenate(y_pred, 1))
+		labels = np.hstack(labels)
+		if full_eval:
+			emb = np.concatenate(emb, 1)
+			edge_link = np.vstack(edge_link)
+			if test_set == 'full':# and self.FLAGS.data_folder=="corona_data":
+				self.analyze_paths2(100, 5, edge_link, y_pred[-1,:], test_set)
 		mu = np.vstack(mu)
 
 
@@ -657,7 +729,7 @@ class Hypo_Gen():
 		else:
 			self.year_interval = 10
 			self.start_year = 1969
-			self.end_year = 2009
+			self.end_year = 1989
 
 		feature_dim = 300
 		self.cid = ('{0}_{1}_{2}_{3}_{4}_{5}'.format(
@@ -810,7 +882,21 @@ class Hypo_Gen():
 		cost = 0.0
 
 		train_adj_info = tf.compat.v1.assign(adj_info, self.adj)
-		sess.graph.finalize()
+		# sess.graph.finalize()
+
+		self.checkpoint_path = "checkpoint/"
+		if not os.path.exists(self.checkpoint_path):
+				os.mkdir(self.checkpoint_path)
+				saver = tf.compat.v1.train.Saver() 
+		else:
+			try:
+				saver = tf.compat.v1.train.Saver()
+				saver.restore(sess, tf.train.latest_checkpoint(self.checkpoint_path))
+				self.FLAGS.epochs = 0
+			except:
+				saver = tf.compat.v1.train.Saver() 
+
+
 		for epoch in range(self.FLAGS.epochs): 
 			minibatch.shuffle() 
 
@@ -859,25 +945,28 @@ class Hypo_Gen():
 
 			if total_steps > self.FLAGS.max_total_steps:
 				break
-		
-		print("Optimization Finished!")
+		if self.FLAGS.epochs > 0:
+			print("Optimization Finished!")
+			savePath = saver.save(sess, f'{self.checkpoint_path}/model.ckpt')
 		
 
 		print("Writing test set stats to file (don't peak!)")
-		result_file = open("rez_output/{}_eval_results_{}.csv".format(self.FLAGS.data_folder, self.FLAGS.model), "w")
-		for tests in ['full']:
-			cost, test_f1_mac, test_lrap, test_f1_bi, test_auc, f1_pu, duration = self.incremental_evaluate(sess, model, minibatch, self.FLAGS.batch_size, test=True, test_set=tests)
-			result_file.write("\n=============Result for {}============\n".format(tests.upper()))
-			result_file.write("Full Test stats ({}):\nloss= {:.5f}\nf1_bi= {:.5f}\nf1_mac= {:.5f}\nf1_pu= {:.5f}\nauc= {:.5f}\nlrap= {:.5f}\ntime= {:.5f}".format(tests.upper(), 
-				cost,test_f1_bi, test_f1_mac, f1_pu, test_auc, test_lrap, duration))
+		self.get_eval_emb_and_plot(sess, model, minibatch, self.FLAGS.batch_size, test=True, test_set='full', full_eval=True )
+		# result_file = open("rez_output/{}_eval_results_{}.csv".format(self.FLAGS.data_folder, self.FLAGS.model), "w")
+		# for tests in ['full']:
+		# 	cost, test_f1_mac, test_lrap, test_f1_bi, test_auc, f1_pu, duration = self.incremental_evaluate(sess, model, minibatch, self.FLAGS.batch_size, test=True, test_set=tests)
+		# 	result_file.write("\n=============Result for {}============\n".format(tests.upper()))
+		# 	result_file.write("Full Test stats ({}):\nloss= {:.5f}\nf1_bi= {:.5f}\nf1_mac= {:.5f}\nf1_pu= {:.5f}\nauc= {:.5f}\nlrap= {:.5f}\ntime= {:.5f}".format(tests.upper(), 
+		# 		cost,test_f1_bi, test_f1_mac, f1_pu, test_auc, test_lrap, duration))
 
 			
-			print("\n=============Result for {}============\n".format(tests.upper()))
-			print("Full Test stats ({}):\nloss= {:.5f}\nf1_bi= {:.5f}\nf1_mac= {:.5f}\nf1_pu= {:.5f}\nauc= {:.5f}\nlrap= {:.5f}\ntime= {:.5f}".format(tests.upper(), 
-				cost,test_f1_bi, test_f1_mac, f1_pu, test_auc, test_lrap, duration))
+		# 	print("\n=============Result for {}============\n".format(tests.upper()))
+		# 	print("Full Test stats ({}):\nloss= {:.5f}\nf1_bi= {:.5f}\nf1_mac= {:.5f}\nf1_pu= {:.5f}\nauc= {:.5f}\nlrap= {:.5f}\ntime= {:.5f}".format(tests.upper(), 
+		# 		cost,test_f1_bi, test_f1_mac, f1_pu, test_auc, test_lrap, duration))
 			
 			
-			self.get_emb_and_plot(sess, model, minibatch, self.FLAGS.batch_size, test=True, test_set=tests)
+		# 	self.get_emb_and_plot(sess, model, minibatch, self.FLAGS.batch_size, test=True, test_set=tests)
+
 		
-			print(self.cid)
-		result_file.close()
+		# 	print(self.cid)
+		# result_file.close()
