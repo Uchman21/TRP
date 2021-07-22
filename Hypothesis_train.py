@@ -474,7 +474,7 @@ class Hypo_Gen():
 		return node_outs_val[1], f1, lrap, f1_pu, (time.time() - t_test)
 
 	def analyze_paths2(self, K, max_len, edge, y_pred=None, test_set=None):
-		sorted_idx = np.where(y_pred >= 0)[0]
+		sorted_idx = np.where(y_pred >= cut_off)[0]
 		pred = y_pred[sorted_idx]
 		# print(y_pred)
 		# exit()
@@ -951,22 +951,22 @@ class Hypo_Gen():
 		
 
 		print("Writing test set stats to file (don't peak!)")
-		self.get_eval_emb_and_plot(sess, model, minibatch, self.FLAGS.batch_size, test=True, test_set='full', full_eval=True )
-		# result_file = open("rez_output/{}_eval_results_{}.csv".format(self.FLAGS.data_folder, self.FLAGS.model), "w")
-		# for tests in ['full']:
-		# 	cost, test_f1_mac, test_lrap, test_f1_bi, test_auc, f1_pu, duration = self.incremental_evaluate(sess, model, minibatch, self.FLAGS.batch_size, test=True, test_set=tests)
-		# 	result_file.write("\n=============Result for {}============\n".format(tests.upper()))
-		# 	result_file.write("Full Test stats ({}):\nloss= {:.5f}\nf1_bi= {:.5f}\nf1_mac= {:.5f}\nf1_pu= {:.5f}\nauc= {:.5f}\nlrap= {:.5f}\ntime= {:.5f}".format(tests.upper(), 
-		# 		cost,test_f1_bi, test_f1_mac, f1_pu, test_auc, test_lrap, duration))
+		# self.get_eval_emb_and_plot(sess, model, minibatch, self.FLAGS.batch_size, test=True, test_set='full', full_eval=True )
+		result_file = open("rez_output/{}_eval_results_{}.csv".format(self.FLAGS.data_folder, self.FLAGS.model), "w")
+		for tests in ['full']:
+			cost, test_f1_mac, test_lrap, test_f1_bi, test_auc, f1_pu, duration = self.incremental_evaluate(sess, model, minibatch, self.FLAGS.batch_size, test=True, test_set=tests)
+			result_file.write("\n=============Result for {}============\n".format(tests.upper()))
+			result_file.write("Full Test stats ({}):\nloss= {:.5f}\nf1_bi= {:.5f}\nf1_mac= {:.5f}\nf1_pu= {:.5f}\nauc= {:.5f}\nlrap= {:.5f}\ntime= {:.5f}".format(tests.upper(), 
+				cost,test_f1_bi, test_f1_mac, f1_pu, test_auc, test_lrap, duration))
 
 			
-		# 	print("\n=============Result for {}============\n".format(tests.upper()))
-		# 	print("Full Test stats ({}):\nloss= {:.5f}\nf1_bi= {:.5f}\nf1_mac= {:.5f}\nf1_pu= {:.5f}\nauc= {:.5f}\nlrap= {:.5f}\ntime= {:.5f}".format(tests.upper(), 
-		# 		cost,test_f1_bi, test_f1_mac, f1_pu, test_auc, test_lrap, duration))
+			print("\n=============Result for {}============\n".format(tests.upper()))
+			print("Full Test stats ({}):\nloss= {:.5f}\nf1_bi= {:.5f}\nf1_mac= {:.5f}\nf1_pu= {:.5f}\nauc= {:.5f}\nlrap= {:.5f}\ntime= {:.5f}".format(tests.upper(), 
+				cost,test_f1_bi, test_f1_mac, f1_pu, test_auc, test_lrap, duration))
 			
 			
-		# 	self.get_emb_and_plot(sess, model, minibatch, self.FLAGS.batch_size, test=True, test_set=tests)
+			self.get_emb_and_plot(sess, model, minibatch, self.FLAGS.batch_size, test=True, test_set=tests)
 
 		
-		# 	print(self.cid)
-		# result_file.close()
+			print(self.cid)
+		result_file.close()

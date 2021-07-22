@@ -8,7 +8,7 @@ embeddings are used to conduct both transductive and inductive node pair relatio
 
 See our [paper](https://arxiv.org/pdf/2010.01916.pdf) for details on the algorithm.
 
-The datasets  used in our experiments can be downloaded from [Link](https://drive.google.com/drive/folders/1Os0vgDwjRkKineI14IStxvyAFZobUeh3?usp=sharing).
+The datasets  used in our experiments can be downloaded from [Link](https://drive.google.com/file/d/15ODnZcpUZCSxEuyS7TbCKh9tIHjoRIWR/view?usp=sharing).
 
 If you make use of this code or the MLGW algorithm in your work, please cite the following paper:
 
